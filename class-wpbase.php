@@ -14,10 +14,11 @@
  * @see Filter Reference
  * http://codex.wordpress.org/Plugin_API/Filter_Reference
  * 
- * @example Call method from a class instance in a add_action or add_filter -> add_action(self::FILER_... , array(&$class_instance, 'methodname'));
  * 
- * @version 0.3
- * @author Wim
+ * @author 		Sitebase (Wim Mostmans)
+ * @copyright  	Copyright (c) 2011, Sitebase (http://www.sitebase.be)
+ * @license    	http://www.opensource.org/licenses/bsd-license.php    BSD License
+ * @version 	0.3
  */
 if(!class_exists('WpBase_0_3')){
 abstract class WpBase_0_3  {
