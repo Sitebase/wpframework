@@ -1,5 +1,10 @@
 This is a little framework that I've written so that I finally can write OO-plugins for WordPress.
-You can create action and filter methods that will automaticly get called.
-This class is still in a <strong>beta</strong> stage so let me know if you have any tips, suggestions or find any bugs.
+You can create actions and filter methods that will automaticly get called.
+This class is still in a *beta* stage so let me know if you have any tips, suggestions or find any bugs.
 
-For the moment there is no documentation available because the class is still in heavy development.
+I've included 4 examples so you can take a look how you can write plugins with this framework. 
+The following examples are included:
+- Dashboard widget
+- Widget
+- Custom post type
+- Plugin
