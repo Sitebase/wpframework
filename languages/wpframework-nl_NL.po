@@ -1,0 +1,3756 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-07 17:48+0100\n"
+"PO-Revision-Date: 2011-03-07 17:51+0100\n"
+"Last-Translator: Wim Mostmans <wim@sitebase.be>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../akismet/admin.php:14
+#, php-format
+msgid "Akismet %s requires WordPress 3.0 or higher."
+msgstr ""
+
+#: ../akismet/admin.php:14
+#, php-format
+msgid "Please <a href=\"%s\">upgrade WordPress</a> to a current version, or <a href=\"%s\">downgrade to version 2.4 of the Akismet plugin</a>."
+msgstr ""
+
+#: ../akismet/admin.php:27
+msgid "Comment History"
+msgstr ""
+
+#: ../akismet/admin.php:40
+msgid "Akismet Configuration"
+msgstr ""
+
+#: ../akismet/admin.php:45
+msgid "Settings"
+msgstr ""
+
+#: ../akismet/admin.php:58
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: ../akismet/admin.php:122
+msgid "Your key has been cleared."
+msgstr ""
+
+#: ../akismet/admin.php:123
+msgid "Your key has been verified. Happy blogging!"
+msgstr ""
+
+#: ../akismet/admin.php:124
+msgid "The key you entered is invalid. Please double-check it."
+msgstr ""
+
+#: ../akismet/admin.php:125
+msgid "The key you entered could not be verified because a connection to akismet.com could not be established. Please check your server configuration."
+msgstr ""
+
+#: ../akismet/admin.php:126
+msgid "There was a problem connecting to the Akismet server. Please check your server configuration."
+msgstr ""
+
+#: ../akismet/admin.php:127
+#, php-format
+msgid "Please enter an API key. (<a href=\"%s\" style=\"color:#fff\">Get your key.</a>)"
+msgstr ""
+
+#: ../akismet/admin.php:128
+msgid "This key is valid."
+msgstr ""
+
+#: ../akismet/admin.php:129
+msgid "The key below was previously validated but a connection to akismet.com can not be established at this time. Please check your server configuration."
+msgstr ""
+
+#: ../akismet/admin.php:130
+#, php-format
+msgid "Your WordPress home URL %s is invalid.  Please fix the <a href=\"%s\">home option</a>."
+msgstr ""
+
+#: ../akismet/admin.php:144
+#, php-format
+msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have an API key yet, you can get one at <a href=\"%2$s\">Akismet.com</a>."
+msgstr ""
+
+#: ../akismet/admin.php:169
+#, php-format
+msgid "Your web host or server administrator has disabled PHP's <code>fsockopen</code> or <code>gethostbynamel</code> functions.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet's system requirements</a>."
+msgstr ""
+
+#: ../akismet/admin.php:178
+#, php-format
+msgid "A network problem or firewall is blocking some connections from your web server to Akismet.com.  Akismet is working but this may cause problems during times of network congestion.  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
+msgstr ""
+
+#: ../akismet/admin.php:183
+#, php-format
+msgid "A network problem or firewall is blocking all connections from your web server to Akismet.com.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
+msgstr ""
+
+#: ../akismet/admin.php:194
+#, php-format
+msgid "A DNS problem or firewall is preventing all access from your web server to Akismet.com.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
+msgstr ""
+
+#: ../akismet/admin.php:211
+msgid "Accessible"
+msgstr ""
+
+#: ../akismet/admin.php:211
+msgid "Re-trying"
+msgstr ""
+
+#: ../akismet/admin.php:219
+#, php-format
+msgid "Last checked %s ago."
+msgstr ""
+
+#: ../akismet/admin.php:221
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Click here</a> to confirm that <a href=\"%s\" target=\"_blank\">Akismet.com is up</a>."
+msgstr ""
+
+#: ../akismet/admin.php:231
+msgid "Akismet Stats"
+msgstr ""
+
+#: ../akismet/admin.php:290
+msgid "Akismet is almost ready."
+msgstr ""
+
+#: ../akismet/admin.php:290
+#, php-format
+msgid "You must <a href=\"%1$s\">enter your Akismet API key</a> for it to work."
+msgstr ""
+
+#: ../akismet/admin.php:302
+msgid "Akismet has detected a problem."
+msgstr ""
+
+#: ../akismet/admin.php:325
+msgid "Flagged as spam by Akismet"
+msgstr ""
+
+#: ../akismet/admin.php:327
+msgid "Cleared by Akismet"
+msgstr ""
+
+#: ../akismet/admin.php:331
+#, php-format
+msgid "Flagged as spam by %s"
+msgstr ""
+
+#: ../akismet/admin.php:333
+#, php-format
+msgid "Un-spammed by %s"
+msgstr ""
+
+#: ../akismet/admin.php:342
+msgid "History"
+msgstr ""
+
+#: ../akismet/admin.php:369
+#: ../akismet/admin.php:397
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../akismet/admin.php:381
+msgid "Akismet"
+msgstr ""
+
+#: ../akismet/admin.php:450
+#, php-format
+msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog. "
+msgstr ""
+
+#: ../akismet/admin.php:460
+#, php-format
+msgid "There's nothing in your <a href='%1$s'>spam queue</a> at the moment."
+msgstr ""
+
+#: ../akismet/admin.php:478
+msgid "Check for Spam"
+msgstr ""
+
+#: ../akismet/admin.php:521
+#, php-format
+msgid "%s reported this comment as not spam"
+msgstr ""
+
+#: ../akismet/admin.php:570
+#, php-format
+msgid "%s reported this comment as spam"
+msgstr ""
+
+#: ../akismet/admin.php:615
+#, php-format
+msgid "%s changed the comment status to %s"
+msgstr ""
+
+#: ../akismet/admin.php:680
+msgid "Akismet re-checked and caught this comment as spam"
+msgstr ""
+
+#: ../akismet/admin.php:684
+msgid "Akismet re-checked and cleared this comment"
+msgstr ""
+
+#: ../akismet/admin.php:688
+#, php-format
+msgid "Akismet was unable to re-check this comment (response: %s)"
+msgstr ""
+
+#: ../akismet/akismet.php:266
+msgid "Akismet caught this comment as spam"
+msgstr ""
+
+#: ../akismet/akismet.php:268
+#: ../akismet/akismet.php:276
+#, php-format
+msgid "Comment status was changed to %s"
+msgstr ""
+
+#: ../akismet/akismet.php:271
+msgid "Akismet cleared this comment"
+msgstr ""
+
+#: ../akismet/akismet.php:274
+msgid "Comment was caught by wp_blacklist_check"
+msgstr ""
+
+#: ../akismet/akismet.php:281
+#, php-format
+msgid "Akismet was unable to check this comment (response: %s), will automatically retry again later."
+msgstr ""
+
+#: ../akismet/akismet.php:459
+msgid "Akismet caught this comment as spam during an automatic retry."
+msgstr ""
+
+#: ../akismet/akismet.php:461
+msgid "Akismet cleared this comment during an automatic retry."
+msgstr ""
+
+#: ../akismet/legacy.php:47
+#, php-format
+msgid "Akismet Spam (%s)"
+msgstr ""
+
+#: ../akismet/legacy.php:49
+#: ../akismet/legacy.php:51
+msgid "Akismet Spam"
+msgstr ""
+
+#: ../akismet/legacy.php:61
+#: ../akismet/legacy.php:80
+msgid "You do not have sufficient permission to moderate comments."
+msgstr ""
+
+#: ../akismet/legacy.php:96
+#, php-format
+msgid "%1$s comments recovered."
+msgstr ""
+
+#: ../akismet/legacy.php:100
+msgid "All spam deleted."
+msgstr ""
+
+#: ../akismet/legacy.php:153
+#, php-format
+msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
+msgstr ""
+
+#: ../akismet/legacy.php:160
+msgid "You have no spam currently in the queue. Must be your lucky day. :)"
+msgstr ""
+
+#: ../akismet/legacy.php:163
+msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
+msgstr ""
+
+#: ../akismet/legacy.php:169
+#: ../akismet/legacy.php:347
+#, php-format
+msgid "There are currently %1$s comments identified as spam."
+msgstr ""
+
+#: ../akismet/legacy.php:178
+msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
+msgstr ""
+
+#: ../akismet/legacy.php:214
+msgid "Comments"
+msgstr ""
+
+#: ../akismet/legacy.php:232
+msgid "Search Spam &raquo;"
+msgstr ""
+
+#: ../akismet/legacy.php:239
+#: ../akismet/legacy.php:306
+msgid "&laquo; Previous Page"
+msgstr ""
+
+#: ../akismet/legacy.php:260
+#: ../akismet/legacy.php:327
+msgid "Next Page &raquo;"
+msgstr ""
+
+#: ../akismet/legacy.php:333
+msgid "De-spam marked comments &raquo;"
+msgstr ""
+
+#: ../akismet/legacy.php:347
+msgid "Delete all"
+msgstr ""
+
+#: ../akismet/legacy.php:385
+msgid "Recheck Queue for Spam"
+msgstr ""
+
+#: ../akismet/widget.php:43
+msgid "Spam Blocked"
+msgstr ""
+
+#: ../classipress/comments.php:11
+msgid "Please do not load this page directly."
+msgstr ""
+
+#: ../classipress/comments.php:36
+msgid "No Responses"
+msgstr ""
+
+#: ../classipress/comments.php:36
+msgid "One Response"
+msgstr ""
+
+#: ../classipress/comments.php:36
+msgid "% Responses"
+msgstr ""
+
+#: ../classipress/comments.php:46
+msgid "Older Comments"
+msgstr ""
+
+#: ../classipress/comments.php:48
+msgid "Newer Comments"
+msgstr ""
+
+#: ../classipress/comments.php:87
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../classipress/comments.php:87
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../classipress/comments.php:98
+#, php-format
+msgid "You must be <a href='%s'>logged in</a> to post a comment."
+msgstr ""
+
+#: ../classipress/loop.php:34
+msgid "Continue reading &raquo;"
+msgstr ""
+
+#: ../classipress/page.php:34
+msgid "Edit Page"
+msgstr ""
+
+#: ../classipress/search.php:29
+#: ../classipress/search.php:46
+#, php-format
+msgid "Search for '%s' returned %s results"
+msgstr ""
+
+#: ../classipress/single-ad_listing.php:131
+msgid "N/A"
+msgstr ""
+
+#: ../classipress/single-ad_listing.php:140
+#: ../classipress/single.php:42
+msgid "No Tags"
+msgstr ""
+
+#: ../classipress/single-ad_listing.php:143
+msgid "Edit Listing"
+msgstr ""
+
+#: ../classipress/single.php:45
+msgid "Edit Post"
+msgstr ""
+
+#: ../classipress/tpl-add-new-confirm.php:75
+msgid "View your new ad"
+msgstr ""
+
+#: ../classipress/tpl-dashboard.php:74
+#, php-format
+msgid "%s's Dashboard"
+msgstr ""
+
+#: ../classipress/tpl-dashboard.php:133
+msgid "Live"
+msgstr ""
+
+#: ../classipress/tpl-dashboard.php:134
+msgid "Until"
+msgstr ""
+
+#: ../classipress/tpl-dashboard.php:138
+msgid "pause ad"
+msgstr ""
+
+#: ../classipress/tpl-dashboard.php:147
+msgid "awaiting approval"
+msgstr ""
+
+#: ../classipress/tpl-dashboard.php:155
+msgid "awaiting payment"
+msgstr ""
+
+#: ../classipress/tpl-dashboard.php:174
+msgid "ended"
+msgstr ""
+
+#: ../classipress/tpl-dashboard.php:182
+msgid "offline"
+msgstr ""
+
+#: ../classipress/tpl-dashboard.php:185
+msgid "restart ad"
+msgstr ""
+
+#: ../classipress/tpl-dashboard.php:237
+#: ../classipress/tpl-dashboard.php:239
+msgid "Relist Ad"
+msgstr ""
+
+#: ../classipress/tpl-profile.php:131
+#, php-format
+msgid "%s's Profile"
+msgstr ""
+
+#: ../classipress/includes/appthemes-functions.php:190
+msgid "total views"
+msgstr ""
+
+#: ../classipress/includes/appthemes-functions.php:190
+msgid "today"
+msgstr ""
+
+#: ../classipress/includes/appthemes-functions.php:192
+msgid "no views yet"
+msgstr ""
+
+#: ../classipress/includes/appthemes-functions.php:525
+#: ../classipress/includes/appthemes-functions.php:527
+msgid "Perhaps you meant"
+msgstr ""
+
+#: ../classipress/includes/appthemes-functions.php:542
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr ""
+
+#: ../classipress/includes/appthemes-functions.php:545
+msgid "&lsaquo;&lsaquo; First"
+msgstr ""
+
+#: ../classipress/includes/appthemes-functions.php:546
+msgid "Last &rsaquo;&rsaquo;"
+msgstr ""
+
+#: ../classipress/includes/sidebar-blog-posts.php:26
+msgid "0 Comments"
+msgstr ""
+
+#: ../classipress/includes/sidebar-blog-posts.php:26
+msgid "1 Comment"
+msgstr ""
+
+#: ../classipress/includes/sidebar-blog-posts.php:26
+msgid "% Comments"
+msgstr ""
+
+#: ../classipress/includes/sidebar-contact.php:22
+msgid "Your message has been sent!"
+msgstr ""
+
+#: ../classipress/includes/sidebar-contact.php:24
+msgid "ERROR: Incorrect captcha answer"
+msgstr ""
+
+#: ../classipress/includes/theme-comments.php:28
+msgid "Edit"
+msgstr ""
+
+#: ../classipress/includes/theme-comments.php:51
+msgid "Reply"
+msgstr ""
+
+#: ../classipress/includes/theme-comments.php:52
+msgid "Log in to reply."
+msgstr ""
+
+#: ../classipress/includes/theme-cron.php:60
+msgid "No expired ads were found."
+msgstr ""
+
+#: ../classipress/includes/theme-cron.php:62
+msgid "The following ads expired and have been taken down from your website: "
+msgstr ""
+
+#: ../classipress/includes/theme-cron.php:63
+msgid "Your cron job has run successfully. "
+msgstr ""
+
+#: ../classipress/includes/theme-cron.php:68
+msgid "Your cron job has run successfully. However, the pruning ads option is turned off so no expired ads were taken down from the website."
+msgstr ""
+
+#: ../classipress/includes/theme-cron.php:71
+msgid "ClassiPress Ads Expired"
+msgstr ""
+
+#: ../classipress/includes/theme-cron.php:71
+msgid "Regards"
+msgstr ""
+
+#: ../classipress/includes/theme-cron.php:71
+msgid "ClassiPress"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:30
+msgid "New Ad Submission"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:31
+#: ../classipress/includes/theme-emails.php:354
+msgid "ClassiPress Admin"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:37
+#: ../classipress/includes/theme-emails.php:360
+msgid "Dear Admin,"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:38
+#, php-format
+msgid "The following ad listing has just been submitted on your %s website."
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:39
+#: ../classipress/includes/theme-emails.php:86
+#: ../classipress/includes/theme-emails.php:362
+msgid "Ad Details"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:40
+#: ../classipress/includes/theme-emails.php:45
+#: ../classipress/includes/theme-emails.php:87
+#: ../classipress/includes/theme-emails.php:92
+#: ../classipress/includes/theme-emails.php:363
+#: ../classipress/includes/theme-emails.php:368
+msgid "-----------------"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:41
+#: ../classipress/includes/theme-emails.php:88
+#: ../classipress/includes/theme-emails.php:364
+msgid "Title: "
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:42
+#: ../classipress/includes/theme-emails.php:89
+#: ../classipress/includes/theme-emails.php:365
+msgid "Category: "
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:43
+#: ../classipress/includes/theme-emails.php:366
+msgid "Author: "
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:46
+#: ../classipress/includes/theme-emails.php:369
+msgid "Preview Ad: "
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:47
+#: ../classipress/includes/theme-emails.php:370
+#, php-format
+msgid "Edit Ad: %s"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:48
+#: ../classipress/includes/theme-emails.php:95
+#: ../classipress/includes/theme-emails.php:153
+#: ../classipress/includes/theme-emails.php:175
+#: ../classipress/includes/theme-emails.php:372
+msgid "Regards,"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:81
+#, php-format
+msgid "Your Ad Submission on %s"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:82
+#: ../classipress/includes/theme-emails.php:146
+#: ../classipress/includes/theme-emails.php:165
+#, php-format
+msgid "%s Admin"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:84
+#: ../classipress/includes/theme-emails.php:148
+#: ../classipress/includes/theme-emails.php:167
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:85
+#, php-format
+msgid "Thank you for your recent submission! Your ad listing has been submitted for review and will not appear live on our site until it has been approved. Below you will find a summary of your ad listing on the %s website."
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:90
+msgid "Status: "
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:93
+msgid "You may check the status of your ad(s) at anytime by logging into your dashboard."
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:96
+#: ../classipress/includes/theme-emails.php:154
+#: ../classipress/includes/theme-emails.php:176
+#, php-format
+msgid "Your %s Team"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:145
+msgid "Your Ad Has Been Approved"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:149
+#, php-format
+msgid "Your ad listing, \"%s\" has been approved and is now live on our site."
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:151
+msgid "You can view your ad by clicking on the following link:"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:164
+msgid "Your Ad Has Expired"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:168
+#, php-format
+msgid "Your ad listing, \"%s\" has expired."
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:171
+msgid "If you would like to relist your ad, please visit your dashboard and click the \"relist\" link."
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:217
+#, php-format
+msgid "Someone is interested in your ad listing: %s"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:222
+#, php-format
+msgid "This message was sent from %s"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:287
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:288
+#: ../classipress/includes/theme-emails.php:327
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:289
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:291
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:328
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:331
+#, php-format
+msgid "[%s] Your username and password"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:353
+msgid "Post Reported"
+msgstr ""
+
+#: ../classipress/includes/theme-emails.php:361
+#, php-format
+msgid "The following ad listing has just been reported on your %s website."
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:360
+msgid "No ad details found."
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:516
+#: ../classipress/includes/theme-functions.php:656
+msgid "Image "
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:578
+msgid "image"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:779
+#, php-format
+msgid "exceeds the %s KB limit by %s KB. Please go back and upload a smaller image."
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:782
+msgid "is not a valid image type (.gif, .jpg, .png). Please go back and upload a different image."
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:907
+msgid "Missing Attachment"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:968
+#, php-format
+msgid "You are allowed %s image(s) per ad."
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:993
+msgid "Error in deleting the image."
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1128
+msgid "Your ad has been successfully updated."
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1128
+msgid "Return to my dashboard"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1132
+msgid "There was an error trying to update your ad."
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1229
+msgid "None"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1297
+msgid "days"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1298
+msgid "day"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1299
+msgid "hours"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1300
+msgid "hour"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1301
+msgid "mins"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1302
+msgid "min"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1303
+msgid "secs"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1304
+msgid "remaining"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1305
+msgid "This ad has expired"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1346
+msgid "Home"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1405
+msgid "Search results for"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1408
+msgid "Posts tagged &#39;"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1415
+msgid "About"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1418
+msgid "Error 404"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1425
+msgid "Page"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:1480
+msgid "No matches found"
+msgstr ""
+
+#: ../classipress/includes/theme-functions.php:2279
+msgid "Primary Navigation"
+msgstr ""
+
+#: ../classipress/includes/theme-login.php:57
+msgid "Retrieve your lost password for "
+msgstr ""
+
+#: ../classipress/includes/theme-login.php:60
+msgid "Login "
+msgstr ""
+
+#: ../classipress/includes/theme-login.php:62
+msgid "Register at "
+msgstr ""
+
+#: ../classipress/includes/theme-login.php:64
+msgid "Login/Register at "
+msgstr ""
+
+#: ../classipress/includes/theme-login.php:69
+msgid "Your Profile at "
+msgstr ""
+
+#: ../classipress/includes/theme-login.php:104
+#: ../classipress/includes/theme-login.php:209
+msgid "You are now logged out."
+msgstr ""
+
+#: ../classipress/includes/theme-login.php:107
+#: ../classipress/includes/theme-login.php:212
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: ../classipress/includes/theme-login.php:110
+#: ../classipress/includes/theme-login.php:215
+msgid "Check your email for the confirmation link."
+msgstr ""
+
+#: ../classipress/includes/theme-login.php:113
+#: ../classipress/includes/theme-login.php:218
+msgid "Check your email for your new password."
+msgstr ""
+
+#: ../classipress/includes/theme-login.php:116
+#: ../classipress/includes/theme-login.php:221
+msgid "Registration complete. Please check your e-mail."
+msgstr ""
+
+#: ../classipress/includes/theme-login.php:206
+msgid "Cookies are blocked or not supported by your browser. You must enable cookies to continue."
+msgstr ""
+
+#: ../classipress/includes/theme-login.php:309
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+#: ../classipress/includes/theme-profile.php:37
+#, php-format
+msgid "Enter your Facebook username without the URL. <br />Don't have one yet? <a target='_blank' href='%s'>Get a custom URL.</a>"
+msgstr ""
+
+#: ../classipress/includes/theme-searchbar.php:32
+#: ../classipress/includes/theme-widgets.php:45
+msgid "All Categories"
+msgstr ""
+
+#: ../classipress/includes/theme-sidebars.php:9
+msgid "Main Sidebar"
+msgstr ""
+
+#: ../classipress/includes/theme-sidebars.php:11
+msgid "This is your main ClassiPress sidebar."
+msgstr ""
+
+#: ../classipress/includes/theme-sidebars.php:19
+msgid "Ad Sidebar"
+msgstr ""
+
+#: ../classipress/includes/theme-sidebars.php:21
+msgid "This is your ClassiPress single ad listing sidebar."
+msgstr ""
+
+#: ../classipress/includes/theme-sidebars.php:29
+msgid "Page Sidebar"
+msgstr ""
+
+#: ../classipress/includes/theme-sidebars.php:31
+msgid "This is your ClassiPress page sidebar."
+msgstr ""
+
+#: ../classipress/includes/theme-sidebars.php:39
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../classipress/includes/theme-sidebars.php:41
+msgid "This is your ClassiPress blog sidebar."
+msgstr ""
+
+#: ../classipress/includes/theme-sidebars.php:49
+msgid "User Sidebar"
+msgstr ""
+
+#: ../classipress/includes/theme-sidebars.php:51
+msgid "This is your ClassiPress user sidebar."
+msgstr ""
+
+#: ../classipress/includes/theme-sidebars.php:59
+msgid "Footer"
+msgstr ""
+
+#: ../classipress/includes/theme-sidebars.php:61
+msgid "This is your ClassiPress footer. You can have up to four items which will display in the footer from left to right."
+msgstr ""
+
+#: ../classipress/includes/theme-stats.php:37
+msgid "No views yet"
+msgstr ""
+
+#: ../classipress/includes/theme-stats.php:99
+#: ../classipress/includes/theme-stats.php:133
+msgid "views"
+msgstr ""
+
+#: ../classipress/includes/theme-stats.php:103
+#: ../classipress/includes/theme-stats.php:137
+msgid "No ads viewed yet."
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:101
+msgid "No cities found."
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:128
+msgid "Places an ad space in the sidebar for 125x125 ads"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:130
+msgid "CP 125x125 Ads"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:192
+msgid "Sponsored Ads"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:219
+msgid "This places a Facebook page Like Box in your sidebar to attract and gain Likes from visitors."
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:220
+msgid "CP Facebook Like Box"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:261
+msgid "Facebook Friends"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:300
+msgid "This places a real-time Twitter feed in your sidebar."
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:301
+msgid "CP Real-Time Twitter Feed"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:494
+msgid "Your most recent blog posts"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:559
+msgid "Your sidebar ad search box"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:560
+msgid "Ad Search Box"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:566
+msgid "Search Classified Ads"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:596
+msgid "Your sidebar top ads today"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:597
+msgid "Top Ads Today"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:603
+msgid "Popular Ads Today"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:633
+msgid "Your sidebar top ads overall"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:634
+msgid "Top Ads Overall"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:640
+msgid "Popular Ads Overall"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:694
+msgid "Your most used ad tags in cloud format"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:695
+msgid "CP Ads Tag Cloud"
+msgstr ""
+
+#: ../classipress/includes/theme-widgets.php:705
+msgid "Ad Tags"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-addons.php:85
+msgid "Image"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-notices.php:21
+#, php-format
+msgid "You need to set your <a href=\"%1$s\">permalink custom structure</a> to at least contain <b>/&#37;postname&#37;/</b> before ClassiPress will work properly."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-notices.php:35
+#, php-format
+msgid "ClassiPress is currently running in PayPal Sandbox mode. Remember to <a href=\"%1$s\">uncheck the box</a> when you are ready to start selling ads again."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-notices.php:49
+#, php-format
+msgid "ClassiPress is currently running in Google Sandbox mode. Remember to <a href=\"%1$s\">uncheck the box</a> when you are ready to start selling ads again."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:36
+msgid "Ads Expired Check was executed."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:42
+msgid "Your settings have been saved."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:639
+msgid "All your categories are currently being used. You must remove at least one category from another form layout before you can continue."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:771
+#: ../classipress/includes/admin/admin-options.php:1212
+msgid "(You upgraded to version "
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:771
+msgid "You have upgraded ClassiPress to the latest version."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:1209
+msgid "Error: Your ClassiPress database is not updated to match your version of ClassiPress."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:1210
+msgid "Product Version"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:1501
+#: ../classipress/includes/admin/admin-options.php:1562
+msgid "Error: Please select at least one category. <a href='#' onclick='history.go(-1);return false;'>Go back</a>"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2264
+#, php-format
+msgid "Table '%s' has been deleted."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2279
+msgid "All ClassiPress options have been deleted."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2288
+#, php-format
+msgid "ClassiPress '%s' cache has been flushed."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2325
+#, php-format
+msgid "This feature is not available with your edition of ClassiPress.<br/> <a href='%s' target='_new'>Upgrade now</a> to enable this feature and get complete visibility into your ad listing transactions."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2483
+msgid "Your server has fsockopen enabled which is needed for PayPal IPN to work."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2483
+msgid "Your server does not have fsockopen enabled so PayPal IPN will not work. Contact your host provider to have it enabled."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2488
+msgid "Your server has Open SSL enabled which is needed for PayPal IPN to work. Also make sure port 443 is open on the firewall."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2488
+msgid "Your server does not have Open SSL enabled so PayPal IPN will not work. Contact your host provider to have it enabled."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2493
+msgid "It appears your server supports the GD Library which is required in order for the legacy image resizer script (TimThumb) to work."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2493
+msgid "Your server does not have the GD Library enabled so the legacy image resizer script (TimThumb) will not work. Most servers with PHP 4.3+ includes this by default."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2504
+msgid "(change this)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2610
+msgid "Dashboard"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2611
+msgid "General Settings"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2612
+msgid "Emails"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2613
+#: ../classipress/includes/admin/admin-values.php:1661
+msgid "Pricing Options"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2613
+msgid "Pricing"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2614
+msgid "Ad Packs"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2615
+msgid "Coupons"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2616
+msgid "Payment Gateway Options"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2616
+msgid "Gateways"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2617
+msgid "Form Layouts"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2618
+msgid "Custom Fields"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2619
+msgid "Transactions"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-options.php:2620
+msgid "System Info"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:27
+#: ../classipress/includes/admin/admin-post-types.php:171
+msgid "Ads"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:28
+msgid "Ad"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:29
+msgid "Add New"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:30
+msgid "Create New Ad"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:32
+msgid "Edit Ad"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:33
+msgid "New Ad"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:34
+msgid "View Ads"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:35
+msgid "View Ad"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:36
+msgid "Search Ads"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:37
+msgid "No ads found"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:38
+msgid "No ads found in trash"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:39
+msgid "Parent Ad"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:41
+msgid "This is where you can create new classified ads on your site."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:61
+msgid "Ad Categories"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:62
+msgid "Ad Category"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:63
+msgid "Search Ad Categories"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:64
+msgid "All Ad Categories"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:65
+msgid "Parent Ad Category"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:66
+msgid "Parent Ad Category:"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:67
+msgid "Edit Ad Category"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:68
+msgid "Update Ad Category"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:69
+msgid "Add New Ad Category"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:70
+msgid "New Ad Category Name"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:85
+msgid "Ad Tag"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:86
+msgid "Search Ad Tags"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:87
+msgid "All Ad Tags"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:88
+msgid "Parent Ad Tag"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:89
+msgid "Parent Ad Tag:"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:90
+msgid "Edit Ad Tag"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:91
+msgid "Update Ad Tag"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:92
+msgid "Add New Ad Tag"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:93
+msgid "New Ad Tag Name"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:115
+msgid "Title"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:116
+msgid "Author"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:117
+msgid "Category"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:118
+msgid "Tags"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:119
+msgid "Price"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:120
+msgid "Expires"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:122
+msgid "Date"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:168
+#: ../classipress/includes/admin/admin-values.php:441
+#: ../classipress/includes/admin/admin-values.php:1886
+msgid "Name"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:169
+#: ../classipress/includes/admin/admin-values.php:1897
+#: ../classipress/includes/admin/admin-values.php:1968
+msgid "Description"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:170
+msgid "Slug"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-post-types.php:332
+msgid "Ad Custom Fields"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:32
+#: ../classipress/includes/admin/admin-values.php:1333
+#: ../classipress/includes/admin/admin-values.php:1530
+msgid "General"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:34
+msgid "Site Configuration"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:38
+msgid "Home Page Layout"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:40
+msgid "Select the layout you prefer for your home page. The directory style is a more traditional classified ads layout. The standard style is more like a blog layout."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:49
+msgid "Standard Style"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:50
+msgid "Directory Style"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:52
+msgid "Color Scheme"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:54
+msgid "Select the color scheme you would like your classified ads site to use."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:63
+msgid "Aqua Theme"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:64
+msgid "Blue Theme"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:65
+msgid "Green Theme"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:66
+msgid "Red Theme"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:67
+msgid "Teal Theme"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:68
+msgid "Aqua Theme - Black Header"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:69
+msgid "Blue Theme - Black Header"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:70
+msgid "Green Theme - Black Header"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:71
+msgid "Red Theme - Black Header"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:72
+msgid "Teal Theme - Black Header"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:74
+msgid "Enable Blog"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:76
+msgid "Turns on the blog feature for your classified ads site so you can publish articles."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:85
+#: ../classipress/includes/admin/admin-values.php:122
+#: ../classipress/includes/admin/admin-values.php:136
+#: ../classipress/includes/admin/admin-values.php:326
+#: ../classipress/includes/admin/admin-values.php:340
+#: ../classipress/includes/admin/admin-values.php:373
+#: ../classipress/includes/admin/admin-values.php:403
+#: ../classipress/includes/admin/admin-values.php:415
+#: ../classipress/includes/admin/admin-values.php:427
+#: ../classipress/includes/admin/admin-values.php:593
+#: ../classipress/includes/admin/admin-values.php:607
+#: ../classipress/includes/admin/admin-values.php:621
+#: ../classipress/includes/admin/admin-values.php:635
+#: ../classipress/includes/admin/admin-values.php:649
+#: ../classipress/includes/admin/admin-values.php:663
+#: ../classipress/includes/admin/admin-values.php:677
+#: ../classipress/includes/admin/admin-values.php:705
+#: ../classipress/includes/admin/admin-values.php:760
+#: ../classipress/includes/admin/admin-values.php:774
+#: ../classipress/includes/admin/admin-values.php:873
+#: ../classipress/includes/admin/admin-values.php:934
+#: ../classipress/includes/admin/admin-values.php:986
+#: ../classipress/includes/admin/admin-values.php:1047
+#: ../classipress/includes/admin/admin-values.php:1061
+#: ../classipress/includes/admin/admin-values.php:1075
+#: ../classipress/includes/admin/admin-values.php:1089
+#: ../classipress/includes/admin/admin-values.php:1103
+#: ../classipress/includes/admin/admin-values.php:1117
+#: ../classipress/includes/admin/admin-values.php:1131
+#: ../classipress/includes/admin/admin-values.php:1307
+#: ../classipress/includes/admin/admin-values.php:1352
+#: ../classipress/includes/admin/admin-values.php:1367
+#: ../classipress/includes/admin/admin-values.php:1380
+#: ../classipress/includes/admin/admin-values.php:1394
+#: ../classipress/includes/admin/admin-values.php:1408
+#: ../classipress/includes/admin/admin-values.php:1461
+#: ../classipress/includes/admin/admin-values.php:1506
+#: ../classipress/includes/admin/admin-values.php:1545
+#: ../classipress/includes/admin/admin-values.php:1559
+#: ../classipress/includes/admin/admin-values.php:1596
+msgid "Yes"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:86
+#: ../classipress/includes/admin/admin-values.php:123
+#: ../classipress/includes/admin/admin-values.php:137
+#: ../classipress/includes/admin/admin-values.php:327
+#: ../classipress/includes/admin/admin-values.php:341
+#: ../classipress/includes/admin/admin-values.php:374
+#: ../classipress/includes/admin/admin-values.php:404
+#: ../classipress/includes/admin/admin-values.php:416
+#: ../classipress/includes/admin/admin-values.php:428
+#: ../classipress/includes/admin/admin-values.php:594
+#: ../classipress/includes/admin/admin-values.php:608
+#: ../classipress/includes/admin/admin-values.php:622
+#: ../classipress/includes/admin/admin-values.php:636
+#: ../classipress/includes/admin/admin-values.php:650
+#: ../classipress/includes/admin/admin-values.php:664
+#: ../classipress/includes/admin/admin-values.php:678
+#: ../classipress/includes/admin/admin-values.php:706
+#: ../classipress/includes/admin/admin-values.php:761
+#: ../classipress/includes/admin/admin-values.php:775
+#: ../classipress/includes/admin/admin-values.php:874
+#: ../classipress/includes/admin/admin-values.php:935
+#: ../classipress/includes/admin/admin-values.php:987
+#: ../classipress/includes/admin/admin-values.php:1046
+#: ../classipress/includes/admin/admin-values.php:1060
+#: ../classipress/includes/admin/admin-values.php:1074
+#: ../classipress/includes/admin/admin-values.php:1088
+#: ../classipress/includes/admin/admin-values.php:1102
+#: ../classipress/includes/admin/admin-values.php:1116
+#: ../classipress/includes/admin/admin-values.php:1130
+#: ../classipress/includes/admin/admin-values.php:1308
+#: ../classipress/includes/admin/admin-values.php:1353
+#: ../classipress/includes/admin/admin-values.php:1366
+#: ../classipress/includes/admin/admin-values.php:1381
+#: ../classipress/includes/admin/admin-values.php:1395
+#: ../classipress/includes/admin/admin-values.php:1409
+#: ../classipress/includes/admin/admin-values.php:1462
+#: ../classipress/includes/admin/admin-values.php:1507
+#: ../classipress/includes/admin/admin-values.php:1546
+#: ../classipress/includes/admin/admin-values.php:1560
+#: ../classipress/includes/admin/admin-values.php:1595
+msgid "No"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:88
+msgid "Blog Category ID"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:89
+msgid "This field has been deprecated since v3.0.5. Used for reference in upgrading only."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:91
+msgid "This field must contain the blog category ID otherwise the blog and any blog sidebar widgets will not work correctly. This value should not be changed unless you know what you are doing."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:100
+msgid "Blog Page ID"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:101
+#, php-format
+msgid "Visit the <a href='%s'>pages</a> listing and mouse over the 'Blog' page to get the post= value."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:102
+msgid "This field must contain the blog page ID otherwise the breadcrumb and other dependancies may not work correctly. This value should not be changed unless you know what you are doing."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:111
+msgid "Enable Coupons"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:113
+msgid "Turns on the coupon module so your ad forms include a coupon code field. You still need to create and setup coupons before coupons will work. You also must have &quot;Charge for Listing Ads&quot; option enabled."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:125
+msgid "Enable Logo"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:127
+msgid "If you do not have a logo to use, select no and this will display the title and description of your web site instead."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:139
+msgid "Web Site Logo"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:141
+msgid "Paste the URL of your web site logo image here. It will replace the default ClassiPress header logo.(i.e. http://www.yoursite.com/logo.jpg)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:150
+msgid "Feedburner URL"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:151
+#, php-format
+msgid "Sign up for a free <a target='_new' href='%s'>Feedburner account</a>."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:152
+msgid "Paste your Feedburner address here. It will automatically redirect your default RSS feed to Feedburner. You must have a Google Feedburner account setup first."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:161
+msgid "Twitter Username"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:162
+#, php-format
+msgid "Sign up for a free <a target='_new' href='%s'>Twitter account</a>."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:163
+msgid "Paste your Twitter username here. It will automatically redirect people who click on your Twitter link to your Twitter page. You must have a Twitter account setup first."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:184
+#: ../classipress/includes/admin/admin-values.php:315
+msgid "Exclude Pages"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:186
+msgid "Enter a comma-separated list of any additional pages you want to exclude from the navigation. By default, your user dashboard, profile, edit-item, and submit ad page IDs are already included. Do not remove them unless you know what you are doing. To find a Page ID for a page to exclude, go to Pages->Edit and hover over the title of the page. The status bar of your browser will display a URL with a numeric ID at the end. This is the page ID."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:195
+msgid "Tracking Code"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:196
+#, php-format
+msgid "Sign up for a free <a target='_new' href='%s'>Google Analytics account</a>."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:197
+msgid "Paste your analytics tracking code here. Google Analytics is free and the most popular but you can use other providers as well."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:206
+msgid "Google Maps Settings"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:211
+msgid "Google Maps Key"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:212
+#, php-format
+msgid "Sign up for a free <a target='_new' href='%s'>Google Maps API key</a>."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:213
+msgid "Enter your API key here to enable an interactive Google map on each classified ads page (requires a free Google Maps API key.). Leave it blank if you want to disable Google Maps."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:222
+msgid "Google Maps Location"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:224
+msgid "Select your country from the list. If it is not listed, either use the USA/Default or use the text field below to enter your countries maps.google URL."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:233
+msgid "USA/Default"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:234
+msgid "Argentina"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:235
+msgid "Austria"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:236
+msgid "Australia"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:237
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:238
+msgid "Belgium"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:239
+msgid "Brazil"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:240
+msgid "Canada"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:241
+msgid "Chile"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:242
+msgid "China"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:243
+msgid "Czech Republic"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:244
+msgid "Denmark"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:245
+msgid "Finland"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:246
+msgid "France"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:247
+msgid "Germany"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:248
+msgid "Hong Kong"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:249
+msgid "India"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:250
+msgid "Italy"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:251
+msgid "Japan"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:252
+msgid "Mexico"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:253
+msgid "Netherlands"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:254
+msgid "Norway"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:255
+msgid "New Zealand"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:256
+msgid "Poland"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:257
+msgid "Portugal"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:258
+msgid "Russia"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:259
+msgid "Singapore"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:260
+msgid "South Korea"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:261
+msgid "Spain"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:262
+msgid "Sweden"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:263
+msgid "Switzerland"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:264
+msgid "Taiwan"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:265
+msgid "United Kingdom"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:268
+msgid "Google Maps Location Other"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:269
+msgid "Format should be based on your country http://maps.google.co.jp"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:270
+msgid "Not all countries have a Google Maps URL. If yours isn't listed in the drop-down above, it wasn't available. If you find your maps.google country URL, paste it here instead. It will override the drop-down option you selected above."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:279
+msgid "Character Encoding"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:281
+msgid "Select your character encoding from the list to properly display your language characters on Google Maps"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:311
+msgid "Search Settings"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:317
+msgid "Set this option to yes if you do not want your pages to show up in your website search results."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:329
+msgid "Exclude Blog Posts"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:331
+msgid "Set this option to yes if you do not want your blog posts to show up in your website search results."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:343
+#: ../classipress/includes/admin/admin-values.php:463
+#: ../classipress/includes/admin/admin-values.php:505
+msgid "Category Depth"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:345
+msgid "This sets the number of sub-categories shown under each parent in the search category drop-down. Use 'Show All' unless you have a lot of sub-categories and do not want them all listed."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:352
+#: ../classipress/includes/admin/admin-values.php:474
+#: ../classipress/includes/admin/admin-values.php:516
+msgid "Show All"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:364
+msgid "Category Hierarchy"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:366
+msgid "This will indent sub-categories within the category drop-down vs showing them all flat."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:377
+msgid "Search Field Width"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:379
+msgid "Sometimes the search bar text field is too long and gets pushed down becuase of the categories drop-down. This option allows you to manually adjust it. Note: value must be numeric followed by either px or % (i.e. 600px or 50%). The default is 450px."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:390
+msgid "Category Options"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:394
+msgid "Show Parent Ad Count"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:396
+msgid "This will show an ad total next to each top-level parent category name in the category drop-down and directory-style home page layout."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:406
+msgid "Show Child Ad Count"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:407
+msgid "This option may display incorrect counts due to a bug in WordPress 3.0. We hope they will release a fix soon."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:408
+msgid "This will show an ad total next to each child category name in the category drop-down and directory-style home page layout."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:418
+msgid "Hide Empty Child Categories"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:420
+msgid "This will hide any empty child categories within the category drop-down and directory-style home page layout."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:431
+msgid "Category Order By"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:433
+msgid "This will display the categories in ascending order either by name or ID."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:440
+msgid "ID"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:444
+msgid "Menu Category Options"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:448
+#: ../classipress/includes/admin/admin-values.php:491
+msgid "Columns"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:450
+msgid "This sets the number of columns shown in the category drop-down menu. Note: this will not always work since it alternates based on odd and even to balance out the categories."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:465
+msgid "This sets the number of sub-categories shown under each parent in the category drop-down menu. Use 'Show All' unless you have a lot of sub-categories and do not want them all listed."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:487
+msgid "Home Page Category Options"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:493
+msgid "This sets the number of columns shown on the directory-style home page layout. Note: this will not always work since it alternates based on odd and even to balance out the categories."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:507
+msgid "This sets the number of sub-categories shown under each parent on the directory-style home page layout. Use 'Show All' unless you have a lot of sub-categories and do not want them all listed."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:530
+msgid "Classified Ads Messages"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:534
+msgid "Home Page Message"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:536
+msgid "This welcome message will appear in the sidebar of your home page. (HTML is allowed)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:546
+msgid "New Ad Message"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:548
+msgid "This message will appear at the top of the classified ads listing page. (HTML is allowed)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:558
+msgid "Terms of Use"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:560
+msgid "This message will appear on the last step of your classified ad listing page. This is usually your legal disclaimer or rules for posting new ads on your site. (HTML is allowed)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:575
+msgid "Listings"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:578
+msgid "Classified Ads Configuration"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:582
+msgid "Allow Ad Editing"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:584
+msgid "Allows the ad owner to edit and republish their existing ads from their dashboard."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:596
+msgid "Ad Inquiry Form Requires Login"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:598
+msgid "Require visitors to be logged in before they can fill out the ad inquiry form. In most cases you should keep this set to no to encourage visitors to ask questions without having to create an account."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:610
+msgid "Allow HTML"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:612
+msgid "Turns on the TinyMCE editor and allows the ad owner to use html code in their ads (keeping this set to No is recommended)."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:624
+msgid "Allow Ad Relisting"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:626
+msgid "This will allow ad owners to pay and relist their expired ads under the original terms (price and duration). They will receive an ad expiration email with a link to their dashboard to relist. This option is not applicable for free or legacy ads (before CP v3.0)."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:638
+msgid "Show Ad Views Counter"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:640
+msgid "This will show a 'total views' and 'today's views' at the bottom of each ad listing and blog post."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:652
+msgid "Show Gravatar Thumbnail"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:653
+msgid "Note: Enabling this may slow down your site."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:654
+msgid "This will show a picture of the author next to their name on each ad listing block. A placeholder image will be used if they don't have one."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:666
+msgid "Enable Gravatar Hovercards"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:668
+msgid "This turns on the Gravatar Hovercards feature so when you hover over an author or commenters Gravatar, it pops open a window with their details."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:680
+msgid "New Ad Status"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:681
+msgid "Note: If you have the 'Charge for Listing Ads' option set to 'Yes', then each ad will automatically be set to Pending Review until payment is made (regardless of this options value.)."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:682
+msgid "<i>Pending Review</i> - You have to manually approve and publish each ad. <br /><i>Published</i> - Ad goes live immediately without any approvals unless it has not been paid for."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:691
+msgid "Pending Review"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:692
+msgid "Published"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:694
+msgid "Prune Ads"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:696
+msgid "Automatically removes all listings from your site as they expire and changes the post status to draft. The frequency is based on the Cron Job Schedule set below and after each ad listing is past the expiration date. If no is selected, the ad will remain live on your site but will be marked as expired."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:708
+msgid "Cron Job Schedule"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:709
+msgid "Note: This feature only works if you have the Prune Ads option above set to yes."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:710
+msgid "Frequency you would like ClassiPress to check for and take offline any expired ads. Twice daily is recommended. Hourly may cause performance issues if you have a lot of ads."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:719
+msgid "Hourly"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:720
+msgid "Twice Daily"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:721
+msgid "Daily"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:723
+msgid "Ad Listing Period"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:725
+msgid "Number of days each ad will be listed on your site. This option is overridden by ad packs if you are charging for ads and using the Fixed Price Per Ad option. "
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:734
+msgid "Form Validation Language"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:736
+msgid "This option allows you to set the language your ad submission form error messages are displayed in. Enter your two-letter country code (i.e. for German enter de). Not all languages have been translated but you can always add your own. To see the available languages, look in your /classipress/includes/js/validate/localization folder."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:745
+msgid "Ad Images Options"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:749
+msgid "Allow Ad Images"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:751
+msgid "Allows the ad owner to upload and use images on their ad. Note: Some existing ads with images may still be displayed."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:763
+msgid "Show Preview Image"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:765
+msgid "Displays a larger image when you mouse over the smaller thumbnail image. This is on your home page, category, search results, etc. "
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:777
+msgid "Max Images Per Ad"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:779
+msgid "The number of images the ad owner can upload with each of their ads."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:797
+msgid "Max Size Per Image"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:799
+msgid "The maximum image size (per image) the ad owner can upload with each of their ads."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:808
+msgid "100 KB"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:809
+msgid "250 KB"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:810
+msgid "500KB"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:811
+msgid "1MB"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:812
+msgid "2MB"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:813
+msgid "5MB"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:815
+msgid "Image Resize Type"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:817
+msgid "This option sets how the ad image thumbnails are displayed for legacy ads (any ClassiPress version before 3.0 uses TimThumb). It either crops or zooms the image into a different size. Try both settings and see which you prefer."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:826
+msgid "Zoom"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:827
+msgid "Crop"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:834
+msgid "Security"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:836
+msgid "Security Settings"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:840
+msgid "Back Office Access"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:841
+#, php-format
+msgid "View the WordPress <a target='_new' href='%s'>Roles and Capabilities</a> for more information."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:842
+msgid "Allows you to restrict access to the WordPress Back Office (wp-admin) by specific role. Keeping this set to admins only is recommended. Select Disable if you have problems with this feature.  (This feature does not work with WPMU at this time)."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:851
+msgid "Admins Only"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:852
+msgid "Admins, Editors"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:853
+msgid "Admins, Editors, Authors"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:854
+msgid "Admins, Editors, Authors, Contributors"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:855
+msgid "All Access"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:856
+msgid "Disable"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:858
+msgid "reCaptcha Settings"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:862
+msgid "Enable reCaptcha"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:863
+#, php-format
+msgid "reCaptcha is a free anti-spam service provided by Google. Learn more about <a target='_new' href='%s'>reCaptcha</a>."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:864
+msgid "Set this option to yes to enable the reCaptcha service that will protect your site against spam registrations. It will show a verification box on your registration page that requires a human to read and enter the words."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:876
+msgid "reCaptcha Public Key"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:877
+#: ../classipress/includes/admin/admin-values.php:888
+#, php-format
+msgid "Sign up for a free <a target='_new' href='%s'>Google reCaptcha</a> account."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:878
+msgid "Enter your public key here to enable an anti-spam service on your new user registration page (requires a free Google reCaptcha account). Leave it blank if you do not wish to use this anti-spam feature."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:887
+msgid "reCaptcha Private Key"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:889
+msgid "Enter your private key here to enable an anti-spam service on your new user registration page (requires a free Google reCaptcha account). Leave it blank if you do not wish to use this anti-spam feature."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:898
+msgid "Choose Theme"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:900
+msgid "Select the color scheme you wish to use for reCaptcha."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:909
+msgid "Red"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:910
+msgid "White"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:911
+msgid "Black"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:912
+msgid "Clean"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:917
+msgid "Advertising"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:919
+msgid "Header Ad (468x60)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:923
+#: ../classipress/includes/admin/admin-values.php:975
+msgid "Enable Ad"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:925
+msgid "Set this option to no if you do not wish to have a 468x60 ad banner displayed."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:937
+#: ../classipress/includes/admin/admin-values.php:989
+msgid "Ad Code"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:938
+#, php-format
+msgid "Paste in your <a target='_new' href='%s'>Google AdSense</a> code here. This will show up in the header of your site."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:939
+#: ../classipress/includes/admin/admin-values.php:991
+msgid "You may use html and/or javascript code provided by Google AdSense."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:949
+#: ../classipress/includes/admin/admin-values.php:1001
+msgid "Ad Image URL"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:950
+#: ../classipress/includes/admin/admin-values.php:1002
+msgid "Paste the URL of your custom logo image here. (i.e. http://www.yoursite.com/logo.jpg)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:951
+msgid "If you would rather use an image ad instead of code provided by Google AdSense, use this instead. It will replace the default ClassiPress header logo."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:960
+#: ../classipress/includes/admin/admin-values.php:1012
+msgid "Ad Destination"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:961
+#: ../classipress/includes/admin/admin-values.php:1013
+msgid "Paste the destination URL of your custom logo here. (i.e. http://www.yoursite.com/landing-page.html)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:962
+#: ../classipress/includes/admin/admin-values.php:1014
+msgid "When a visitor clicks on your ad image, this is the destination they will be sent to."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:971
+msgid "Single Ad (336x280)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:977
+msgid "Set this option to no if you do not wish to have a 336x280 ads displayed on single ad, category, or search result pages."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:990
+#, php-format
+msgid "Paste in your <a target='_new' href='%s'>Google AdSense</a> code here. This will show up on single ad, category, or search result pages."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1003
+msgid "If you would rather use an image ad instead of code provided by Google AdSense, use this instead."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1028
+msgid "Advanced"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1031
+msgid "Advanced Options"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1035
+msgid "Run Ads Expired Check Now"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1037
+msgid "Set this option to yes in order to manually run the function that checks all ads expiration and prunes any ads that are expired. This event will run only one time and then set itself back to no."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1049
+msgid "Disable Core Stylesheets"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1051
+msgid "If you are interested in creating a child theme or just want to completely disable the core ClassiPress styles, change this option to yes. (Note: this option is for advanced users. Do not change unless you know what you are doing.)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1063
+msgid "Enable General.js"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1065
+msgid "This option enables the included general.js located in the /includes/js/ directory. This is where you can add your own javascript without losing your changes on product upgrades."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1077
+msgid "Enable Debug Mode"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1079
+msgid "This will print out the $wp_query->query_vars array at the top of your website. This should only be used for debugging."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1091
+msgid "Use Google CDN jQuery"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1093
+msgid "This will use Google's hosted jQuery files which are served from their global content delivery network. This will help your site load faster and save bandwidth."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1105
+msgid "Disable WordPress Version Meta Tag"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1107
+msgid "This will remove the WordPress generator meta tag in the source code of your site <code>< meta name='generator' content='WordPress 3.1' ></code>. It's an added security measure which prevents anyone from seeing what version of WordPress you are using. It also helps to deter hackers from taking advantage of vulnerabilities sometimes present in WordPress. (Yes is recommended)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1119
+msgid "Disable WordPress User Toolbar"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1121
+msgid "This will remove the WordPress user toolbar at the top of your web site which is displayed for all logged in users. This feature was added in WordPress 3.1."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1133
+msgid "Cache Expires"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1134
+msgid "This number is in seconds so one day equals 86400 seconds (60 seconds * 60 minutes * 24 hours). Do not enter any commas."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1135
+msgid "To speed up page loading on your site, ClassiPress uses a caching mechanism on certain features (i.e. category drop-down, home page). The cache automatically gets flushed whenever a category has been added/modified, however this value sets the frequency your cache is regularly emptied. We recommend keeping this at the default (every hour = 3600 seconds)."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1146
+msgid "Admin Table Width"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1148
+msgid "Sometimes the admin option pages are set too narrow or too wide. This option allows you to override it. Note: value must be numeric followed by either px or % (i.e. 700px or 100%). The default is 850px."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1158
+msgid "Ad Box Right Side"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1160
+msgid "Sometimes the main ad listings box is too narrow or it wraps due to legacy ad sizes. This option allows you to change it manually."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1169
+msgid "Normal Full Width"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1170
+msgid "Legacy Ads Width"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1172
+msgid "Global Path Variables"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1176
+msgid "Dashboard Path"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1177
+#: ../classipress/includes/admin/admin-values.php:1189
+#: ../classipress/includes/admin/admin-values.php:1201
+#: ../classipress/includes/admin/admin-values.php:1213
+#: ../classipress/includes/admin/admin-values.php:1225
+#, php-format
+msgid "IMPORTANT: You must also change the corresponding <a target='_blank' href='%s'>page template slug</a> for this to work."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1178
+msgid "This is the URL path to your customers dashboard page. Do not change unless you know what you are doing."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1188
+msgid "User Profile Path"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1190
+msgid "This is the URL path to your customers user profile page. Do not change unless you know what you are doing."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1200
+msgid "Edit Ad Path"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1202
+msgid "This is the URL path to your customers edit ad page. Do not change unless you know what you are doing."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1212
+msgid "Add New Path"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1214
+msgid "This is the URL path to your add new ad listing page. Do not change unless you know what you are doing."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1224
+msgid "Add New Confirm Path"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1226
+msgid "This is the URL path to your add new ad listing confirmation page. Do not change unless you know what you are doing."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1248
+msgid "Custom Post Type & Taxonomy URLs"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1252
+msgid "Ad Listing Base URL"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1253
+#: ../classipress/includes/admin/admin-values.php:1265
+#: ../classipress/includes/admin/admin-values.php:1277
+#, php-format
+msgid "IMPORTANT: You must <a target='_blank' href='%s'>re-save your permalinks</a> for this change to take effect."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1254
+msgid "This controls the base name of your ad listing urls. The default is ads and will look like this: http://www.yoursite.com/ads/ad-title-here/. Do not include any slashes. This should only be alpha and/or numeric values. You should not change this value once you have launched your site otherwise you risk breaking urls of other sites pointing to yours, etc."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1264
+msgid "Ad Category Base URL"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1266
+msgid "This controls the base name of your ad category urls. The default is ad-category and will look like this: http://www.yoursite.com/ad-category/category-name/. Do not include any slashes. This should only be alpha and/or numeric values. You should not change this value once you have launched your site otherwise you risk breaking urls of other sites pointing to yours, etc."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1276
+msgid "Ad Tag Base URL"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1278
+msgid "This controls the base name of your ad tag urls. The default is ad-tag and will look like this: http://www.yoursite.com/ad-tag/tag-name/. Do not include any slashes. This should only be alpha and/or numeric values. You should not change this value once you have launched your site otherwise you risk breaking urls of other sites pointing to yours, etc."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1291
+msgid "Cuf&oacute;n Font Replacement"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1295
+msgid "Enable Cuf&oacute;n"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1297
+#, php-format
+msgid "Turns on the Cuf&oacute;n replacement text feature on your site. Learn more about <a target='_new' href='%s'>Cuf&oacute;n</a> here."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1298
+msgid "Set this option to no if you are having conflicts or problems with certain text displaying on your site"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1310
+msgid "Cuf&oacute;n Replacement Code"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1311
+msgid "Say you want to replace all <code>&lt;h1 class='dotted'&gt;</code> elements on your site with Cuf&oacute;n. You would enter, <code>Cufon.replace('h1.dotted', { fontFamily: 'Liberation Serif', textShadow:'0 1px 0 #FFFFFF' });</code> The Cuf&oacute;n system will automatically style all elements for you. <br />Note: You must have the font installed before it will work. To install a new font you must first generate it and then place the .js font file in your ClassiPress /includes/fonts/ theme directory."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1312
+msgid "Cuf&oacute;n allows you to easily replace text with stylish fonts that appear to be images. It is fast and and does not require Flash."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1336
+msgid "Email Notifications"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1337
+#, php-format
+msgid "Emails will be sent to: %s (<a target='_new' href='%s'>Change email address</a>)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1341
+msgid "New Ad Email"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1343
+msgid "Send me an email once a new ad has been submitted."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1355
+msgid "Prune Ads Email"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1357
+msgid "Send me an email every time the system prunes expired ads."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1369
+msgid "Ad Approved Email"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1371
+msgid "Send the ad owner an email once their ad has been approved either by you manually or after payment has been made (post status changes from pending to published)."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1383
+msgid "Ad Expired Email"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1385
+msgid "Send the ad owner an email once their ad has expired (post status changes from published to draft)."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1397
+msgid "Admin New User Email"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1399
+msgid "Sends the default WordPress new user notification email to the site admin. It is recommended to keep this turned on so you are alerted whenever a new user registers on your site."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1444
+msgid "New User Email"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1446
+msgid "New User Registration Email"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1450
+msgid "Enable Custom Email"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1452
+msgid "Sends a custom new user notification email to your customers by using the fields you complete below. If this is set to &quot;No&quot;, the default WordPress new user notification email will be sent. This is useful for debugging if your custom emails are not being sent."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1464
+msgid "From Name"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1466
+msgid "This is what your customers will see as the &quot;from&quot; when they receive the new user registration email. Use plain text only"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1475
+msgid "From Email"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1477
+msgid "This is what your customers will see as the &quot;from&quot; email address (also the reply to) when they receive the new user registration email. Use only a valid and existing email address with no html or variables."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1486
+msgid "Email Subject"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1488
+msgid "This is the subject line your customers will see when they receive the new user registration email. Use text and variables only."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1497
+msgid "Allow HTML in Body"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1499
+msgid "This option allows you to use html markup in the email body below. It is recommended to keep it set to &quot;No&quot; to avoid problems with delivery. If you turn it on, make sure to test it and make sure the formatting looks ok and gets delivered properly."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1509
+msgid "Email Body"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1510
+msgid "You may use the following variables within the email body and/or subject line.<br/><br/><strong>%username%</strong> - prints out the username<br/><strong>%useremail%</strong> - prints out the users email address<br/><strong>%password%</strong> - prints out the users text password<br/><strong>%siteurl%</strong> - prints out your website url<br/><strong>%blogname%</strong> - prints out your site name<br/><strong>%loginurl%</strong> - prints out your sites login url<br/><br/>Each variable MUST have the percentage signs wrapped around it with no spaces.<br/>Always test your new email after making any changes (register) to make sure it is working and formatted correctly. If you do not receive an email, chances are something is wrong with your email body."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1511
+msgid "Enter the text you would like your customers to see in the new user registration email. Make sure to always at least include the %username% and %password% variables otherwise they might forget later."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1532
+msgid "Pricing Configuration"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1536
+msgid "Charge for Listing Ads"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1538
+msgid "This option activates the payment system so you can start charging for ad listings on your site."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1548
+msgid "Show Featured Ads Slider"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1550
+msgid "This option turns on the home page featured ads slider. Usually you charge extra for this space but it is not required. To manually make an ad appear here, check the &quot;stick this post to the front page&quot; box on the WordPress edit post page under &quot;Visibility&quot;."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1562
+msgid "Featured Ads Title Length"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1564
+msgid "This number controls the length of your featured ad titles to this many characters (i.e. if you changed this value to 5, &quot;My Title&quot; would turn into &quot;My Ti...&quot;. Spaces are included in the count.)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1574
+msgid "Featured Ad Price"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1575
+msgid "Only enter numeric values or decimal points. Do not include a currency symbol or commas."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1576
+msgid "This is the additional amount you will charge visitors to post a featured ad on your site. A featured ad appears at the top of the category. Leave this blank if you do not want to offer featured ads."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1585
+msgid "Display Zero for Empty Prices"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1587
+msgid "This will force any ad without a price to display a currency of zero for the price."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1598
+msgid "Currency Symbol"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1600
+msgid "Enter the currency symbol you want to appear next to prices on your classified ads (i.e. $, &euro;, &pound;, &yen;)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1609
+msgid "Symbol Position"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1611
+msgid "Some currencies place the symbol on the right side vs the left. Select how you would like your currency symbol to be displayed."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1618
+msgid "Left of Currency ($100)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1619
+msgid "Left of Currency with Space ($ 100)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1620
+msgid "Right of Currency (100$)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1621
+msgid "Right of Currency with Space (100 $)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1623
+msgid "Collect Payments in"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1624
+#, php-format
+msgid "See the list of supported <a target='_new' href='%s'>PayPal currencies</a>."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1625
+msgid "This is the currency you want to collect payments in. It applies mainly to PayPal payments since other payment gateways accept more currencies. If your currency is not listed then PayPal currently does not support it."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1632
+msgid "US Dollars (&#36;)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1633
+msgid "Euros (&euro;)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1634
+msgid "Pounds Sterling (&pound;)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1635
+msgid "Australian Dollars (&#36;)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1636
+msgid "Brazilian Real (&#36;)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1637
+msgid "Canadian Dollars (&#36;)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1638
+msgid "Czech Koruna"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1639
+msgid "Danish Krone"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1640
+msgid "Hong Kong Dollar (&#36;)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1641
+msgid "Hungarian Forint"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1642
+msgid "Israeli Shekel"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1643
+msgid "Japanese Yen (&yen;)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1644
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1645
+msgid "Mexican Peso (&#36;)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1646
+msgid "New Zealand Dollar (&#36;)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1647
+msgid "Norwegian Krone"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1648
+msgid "Philippine Pesos"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1649
+msgid "Polish Zloty"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1650
+msgid "Singapore Dollar (&#36;)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1651
+msgid "Swedish Krona"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1652
+msgid "Swiss Franc"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1653
+msgid "Taiwan New Dollars"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1654
+msgid "Thai Baht"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1658
+msgid "Pricing Model"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1665
+msgid "Price Model"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1666
+#, php-format
+msgid "If you are using the 'Fixed Price Per Ad' option, make sure you have at least one active <a href='%s'>ad pack</a> setup."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1667
+msgid "This option is very important. It defines the pricing model for selling ads on your site. If you want to provide free and paid ads then select the &quot;Price Per Category&quot; option."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1675
+msgid "Fixed Price Per Ad"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1676
+#: ../classipress/includes/admin/admin-values.php:1703
+msgid "Price Per Category"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1677
+#: ../classipress/includes/admin/admin-values.php:1691
+#, php-format
+msgid "% of Sellers Ad Price"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1693
+#, php-format
+msgid "If you selected the &quot;% of Sellers Ad Price&quot; price model, enter your percentage here. Numbers only. No percentage symbol or commas"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1705
+msgid "If you selected the &quot;Price Per Category&quot; price model, enter a price for each category here. To make a specific category free, just enter a zero (0). Do not enter currency symbols or commas. You can use decimal points (i.e. 10.50, 5.95)"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1725
+msgid "New Form"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1728
+msgid "Form Name"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1730
+msgid "Create a form name that best describes what category or categories this form will be used for. (i.e. Auto Form, Clothes Form, General Form, etc). It will not be visible on your site."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1739
+msgid "Form Description"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1741
+#: ../classipress/includes/admin/admin-values.php:1810
+msgid "Enter a description of your new form layout. It will not be visible on your site."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1750
+msgid "Available Categories"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1752
+msgid "Select the categories you want this form to be displayed for. Categories not listed are being used on a different form layout. You can only have one category assigned to each form layout. Any unselected categories will use the default ad form."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1760
+msgid "Status"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1762
+msgid "If you do not want this new form live on your site yet, select inactive."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1770
+#: ../classipress/includes/admin/admin-values.php:1938
+#: ../classipress/includes/admin/admin-values.php:2045
+msgid "Active"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1771
+#: ../classipress/includes/admin/admin-values.php:1939
+#: ../classipress/includes/admin/admin-values.php:2046
+msgid "Inactive"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1782
+msgid "Field Information"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1785
+msgid "Field Name"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1787
+msgid "Create a field name that best describes what this field will be used for. (i.e. Color, Size, etc). It will be visible on your site."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1796
+msgid "Meta Name"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1798
+msgid "This field is used by WordPress so you cannot modify it. Doing so could cause problems displaying the field on your ads."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1808
+msgid "Field Description"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1819
+msgid "Field Tooltip"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1821
+msgid "This will create a ? tooltip icon next to this field on the submit ad page."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1830
+msgid "Field Type"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1832
+msgid "This is the type of field you want to create."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1841
+msgid "text box"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1842
+msgid "drop-down"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1843
+msgid "text area"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1844
+msgid "radio buttons"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1845
+msgid "checkboxes"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1849
+msgid "Field Values"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1851
+msgid "Enter a comma separated list of values you want to appear in this drop-down box. (i.e. XXL,XL,L,M,S,XS). Do not separate values with the return key."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1881
+msgid "Ad Pack Information"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1883
+msgid "Here you can create custom ad packages. Ad Packages are essentially groups of price and length of times."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1888
+msgid "Create a name that best describes this ad package. (i.e. 30 days for only $5) This will be visible on your new ad listing submission page."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1899
+msgid "Enter a description of your new ad package. It will not be visible on your site."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1907
+msgid "Price Per Listing"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1909
+msgid "Enter a numeric price value for this ad package (do not enter a currency symbol or commas)."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1918
+msgid "Number of Days"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1920
+msgid "Enter a numeric value to specify the number of days for this ad package (i.e. 30, 60, 90, 120)."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1929
+msgid "Package Status"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1931
+msgid "If you do not want this ad package live on your site, select inactive."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1952
+msgid "Coupon Details"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1957
+msgid "Code"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1959
+msgid "Create a coupon code that you wish to use. This will be the actual coupon that you pass out to your customers."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1970
+msgid "Enter a description of your new coupon. It will not be visible on your site."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1978
+msgid "Discount"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1980
+msgid "Enter a numeric value for this coupon (do not enter a currency symbol or commas)."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1989
+msgid "Type of Discount"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:1991
+msgid "Either a fixed price or percentage discount."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:2001
+msgid "Max Usage"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:2003
+msgid "Enter a numeric value for the times you wish this coupon to be usable. Enter 0 for unlimited usage."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:2012
+msgid "Start Date"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:2014
+msgid "Enter the start date for this coupon to begin working."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:2024
+msgid "Expire Date"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:2026
+msgid "Enter the expiration date for this coupon to stop working."
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:2036
+msgid "Coupon Status"
+msgstr ""
+
+#: ../classipress/includes/admin/admin-values.php:2038
+msgid "If you do not want this coupon available for use, select inactive."
+msgstr ""
+
+#: ../classipress/includes/forms/step-functions.php:387
+msgid "ERROR: no results found for the default ad form."
+msgstr ""
+
+#: ../classipress/includes/forms/step-functions.php:431
+#, php-format
+msgid "ERROR: The form template for form ID %s does not exist or the session variable is empty."
+msgstr ""
+
+#: ../classipress/includes/forms/step-functions.php:450
+msgid "FREE"
+msgstr ""
+
+#: ../classipress/includes/forms/step-functions.php:481
+msgid "--"
+msgstr ""
+
+#: ../classipress/includes/forms/step-functions.php:500
+msgid "Price depends on category"
+msgstr ""
+
+#: ../classipress/includes/forms/step-functions.php:504
+msgid "Price depends on ad package selected"
+msgstr ""
+
+#: ../classipress/includes/forms/step-functions.php:508
+#, php-format
+msgid "% of your ad listing price"
+msgstr ""
+
+#: ../classipress/includes/forms/step-functions.php:513
+#: ../classipress/includes/forms/step-functions.php:518
+msgid "Free"
+msgstr ""
+
+#: ../classipress/includes/forms/step-functions.php:579
+#, php-format
+msgid "ERROR: no ad packs found for ID %s."
+msgstr ""
+
+#: ../classipress/includes/forms/step1.php:58
+#: ../classipress/includes/forms/step1.php:62
+msgid "Select one"
+msgstr ""
+
+#: ../classipress/includes/forms/step3.php:32
+msgid "Final Step"
+msgstr ""
+
+#: ../classipress/includes/forms/step3.php:32
+msgid "Ad Listing Received"
+msgstr ""
+
+#: ../classipress/includes/forms/register/register-process.php:62
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: ../classipress/includes/forms/register/register-process.php:64
+msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
+msgstr ""
+
+#: ../classipress/includes/forms/register/register-process.php:67
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr ""
+
+#: ../classipress/includes/forms/register/register-process.php:71
+msgid "<strong>ERROR</strong>: Please enter an e-mail address."
+msgstr ""
+
+#: ../classipress/includes/forms/register/register-process.php:73
+msgid "<strong>ERROR</strong>: The email address format is invalid."
+msgstr ""
+
+#: ../classipress/includes/forms/register/register-process.php:76
+msgid "<strong>ERROR</strong>: This email is already in use. Please choose another one."
+msgstr ""
+
+#: ../classipress/includes/forms/register/register-process.php:80
+msgid "<strong>ERROR</strong>: Please enter a password."
+msgstr ""
+
+#: ../classipress/includes/forms/register/register-process.php:82
+msgid "<strong>ERROR</strong>: Please enter the password twice."
+msgstr ""
+
+#: ../classipress/includes/forms/register/register-process.php:84
+msgid "<strong>ERROR</strong>: Passwords do not match."
+msgstr ""
+
+#: ../classipress/includes/forms/register/register-process.php:90
+msgid "<strong>ERROR</strong>: The reCaptcha anti-spam response was incorrect."
+msgstr ""
+
+#: ../classipress/includes/forms/register/register-process.php:102
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:32
+msgid "PayPal"
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:34
+msgid "PayPal Options"
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:42
+msgid "Enable PayPal"
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:43
+#, php-format
+msgid "You must have a <a target='_new' href='%s'>PayPal</a> account setup before using this feature."
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:44
+msgid "Set this to yes if you want to offer PayPal as a payment option on your site. This is the most popular option. Note: the &quot;Charge for Listing Ads&quot; option on the pricing page must be set to yes for this option to work."
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:53
+msgid "PayPal Email"
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:55
+msgid "Enter your PayPal account email address. This is where your money gets sent."
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:75
+msgid "Enable PayPal IPN"
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:76
+#, php-format
+msgid "Your web host must support <a target='_new' href='%s'>fsockopen</a> otherwise this feature will not work. You must also enable IPN within your PayPal account. See the theme <a target='_new' href='%s'>install docs</a> for setup instructions"
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:77
+msgid "IPN stands for instant payment notification and is very powerful. Once a payment has been made via PayPal, it will then send your site a behind the scenes confirmation that the payment was made and instantly activate the ad. If your server does not support this option then your customer must click on a link and come back to your site before the ad will be activated."
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:86
+msgid "Enable IPN Debug"
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:87
+#, php-format
+msgid "Debug PayPal IPN emails will be sent to %s."
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:88
+msgid "If you would like to receive the raw IPN post responses from PayPal to see if payments are being processed correctly, check this box."
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:97
+msgid "Sandbox Mode"
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:98
+#, php-format
+msgid "You must have a <a target='_new' href='%s'>PayPal Sandbox</a> account setup before using this feature."
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:99
+msgid "By default PayPal is set to live mode. If you would like to test and see if payments are being processed correctly, check this box to switch to sandbox mode."
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:110
+msgid "Bank Transfer"
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:112
+msgid "Bank Transfer Options"
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:120
+msgid "Enable Bank Transfer"
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:122
+msgid "Set this to yes if you want to offer cash payments via bank transfer as a payment option on your site. Note: the &quot;Charge for Listing Ads&quot; option on the pricing page must be set to yes for this option to work."
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:131
+msgid "Wire Instructions"
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:132
+msgid "Enter your specific bank wire instructions here. HTML can be used."
+msgstr ""
+
+#: ../classipress/includes/gateways/admin-gateway-values.php:133
+msgid "This will be shown on the payment page after a new ad has been submitted. You will then need to verify the money has been transfered and then manually approve the ad. Include your bank account name, number, routing number, IBAN, or whatever information is necessary to transfer money into your account. IMPORTANT: THE INFORMATION IN THIS TEXT BOX WILL BE SHOWN ON YOUR WEB SITE CONFIRMATION PAGE. APPTHEMES IS NOT LIABLE FOR ANY DAMAGES SO BE VERY CAREFUL WITH WHAT YOU INPUT HERE."
+msgstr ""
+
+#: ../classipress/includes/gateways/gateway.php:64
+msgid "Error: No payment gateway can be found or your session has timed out."
+msgstr ""
+
+#: ../classipress/includes/gateways/paypal/paypal.php:28
+#, php-format
+msgid "Classified ad listing on %s for %s days"
+msgstr ""
+
+#: ../configure-smtp/c2c-plugin.php:59
+#, php-format
+msgid "Invalid file specified for C2C_Plugin: %s"
+msgstr ""
+
+#: ../configure-smtp/c2c-plugin.php:241
+msgid "Settings reset."
+msgstr ""
+
+#: ../configure-smtp/c2c-plugin.php:252
+#: ../configure-smtp/c2c-plugin.php:260
+#, php-format
+msgid "A value is required for: \"%s\""
+msgstr ""
+
+#: ../configure-smtp/c2c-plugin.php:269
+#, php-format
+msgid "Expected integer value for: %s"
+msgstr ""
+
+#: ../configure-smtp/c2c-plugin.php:380
+#, php-format
+msgid "More information about %1$s %2$s"
+msgstr ""
+
+#: ../configure-smtp/c2c-plugin.php:381
+msgid "Click for more help on this plugin"
+msgstr ""
+
+#: ../configure-smtp/c2c-plugin.php:382
+msgid " (especially check out the \"Other Notes\" tab, if present)"
+msgstr ""
+
+#: ../configure-smtp/c2c-plugin.php:703
+msgid "See the \"Help\" link to the top-right of the page for more help."
+msgstr ""
+
+#: ../configure-smtp/c2c-plugin.php:739
+msgid "Scott Reilly, aka coffee2code"
+msgstr ""
+
+#: ../configure-smtp/c2c-plugin.php:740
+#, php-format
+msgid "This plugin brought to you by %s."
+msgstr ""
+
+#: ../configure-smtp/c2c-plugin.php:742
+msgid "Did you find this plugin useful?"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:68
+msgid "Configure SMTP"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:69
+msgid "SMTP"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:73
+msgid "Send e-mail via GMail?"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:74
+msgid "Clicking this will override many of the settings defined below. You will need to input your GMail username and password below."
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:77
+msgid "SMTP host"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:78
+msgid "If \"localhost\" doesn't work for you, check with your host for the SMTP hostname."
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:80
+msgid "SMTP port"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:81
+#, fuzzy
+msgid "This is generally 25."
+msgstr "Dit is een kleine test."
+
+#: ../configure-smtp/configure-smtp.php:83
+msgid "Secure connection prefix"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:85
+msgid "Sets connection prefix for secure connections (prefix method must be supported by your PHP install and your SMTP host)"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:87
+msgid "Use SMTPAuth?"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:88
+msgid "If checked, you must provide the SMTP username and password below"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:90
+msgid "SMTP username"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:93
+msgid "SMTP password"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:96
+msgid "Wordwrap length"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:97
+msgid "Sets word wrapping on the body of the message to a given number of characters."
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:100
+msgid "Sender e-mail"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:101
+msgid "Sets the From e-mail address for all outgoing messages. Leave blank to use the WordPress default. This value will be used even if you don't enable SMTP. NOTE: This may not take effect depending on your mail server and settings, especially if using SMTPAuth (such as for GMail)."
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:103
+msgid "Sender name"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:104
+msgid "Sets the From name for all outgoing messages. Leave blank to use the WordPress default. This value will be used even if you don't enable SMTP."
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:132
+msgid "Configure SMTP Settings"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:133
+msgid "test"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:135
+msgid "SMTP mailing is currently <strong>NOT ENABLED</strong> because no SMTP host has been specified."
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:136
+#, php-format
+msgid "After you have configured your SMTP settings, use the %s to send a test message to yourself."
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:145
+msgid "Be sure to specify your GMail email address (with the @gmail.com) as the SMTP username, and your GMail password as the SMTP password."
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:189
+#, php-format
+msgid "Hi, this is the %s plugin e-mailing you a test message from your WordPress blog."
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:191
+#, php-format
+msgid "This message was sent with this time-stamp: %s"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:193
+msgid "Congratulations!  Your blog is properly configured to send e-mail."
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:194
+msgid "Test message from your WordPress blog"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:199
+msgid "An error was encountered while trying to send the test e-mail."
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:206
+msgid "Test e-mail sent."
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:207
+#, php-format
+msgid "The body of the e-mail includes this time-stamp: %s."
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:221
+msgid "Send A Test"
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:222
+msgid "Click the button below to send a test email to yourself to see if things are working.  Be sure to save any changes you made to the form above before sending the test e-mail.  Bear in mind it may take a few minutes for the e-mail to wind its way through the internet."
+msgstr ""
+
+#: ../configure-smtp/configure-smtp.php:223
+#, php-format
+msgid "This e-mail will be sent to your e-mail address, %s."
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:32
+msgid "Home sidebars"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:38
+msgid "Frontpage sidebars"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:44
+msgid "Category sidebars"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:50
+msgid "Tag sidebars"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:56
+msgid "Search sidebars"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:62
+msgid "404 sidebars"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:75
+msgid "Custom Widget Area"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:94
+msgid "Custom widgets area"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:95
+msgid "Add/Remove custom custom widget area"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:96
+msgid "Sidebar settings"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:100
+msgid "Create&nbsp;sidebar"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:109
+msgid "Created sidebars"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:115
+msgid "Go to"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:115
+msgid "Widgets"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:115
+msgid "in order to add Widgets to your new sidebars."
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:148
+msgid "*If the theme template does not shows a default sidebar, it will not show a custom either"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:168
+msgid "Save changes"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:173
+msgid "Widget in content CSS"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:174
+msgid "Modify the CSS for widgets in content"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:175
+msgid "CSS for Widgets in content"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:179
+msgid "CSS"
+msgstr ""
+
+#: ../custom-widget-area/custom-widget-area.php:181
+msgid "Most be valid css, will be printed on the theme head section."
+msgstr ""
+
+#: ../custom-widget-area/api/AddSidebar.php:12
+msgid "No access"
+msgstr ""
+
+#: ../custom-widget-area/api/AddSidebar.php:27
+msgid "Sidebar with the same name is already created."
+msgstr ""
+
+#: ../custom-widget-area/api/LoadSidebar.php:34
+msgid "Remove"
+msgstr ""
+
+#: ../custom-widget-area/api/LoadSidebar.php:39
+msgid "No custom sidebars."
+msgstr ""
+
+#: ../custom-widget-area/includes/class.CUSTWIDGETOptionsTogglePanel.php:170
+msgid "Options updated."
+msgstr ""
+
+#: ../custom-widget-area/includes/class.CUSTWIDGETOptionsTogglePanel.php:223
+msgid "Open all"
+msgstr ""
+
+#: ../custom-widget-area/includes/class.CUSTWIDGETOptionsTogglePanel.php:224
+msgid "Save all"
+msgstr ""
+
+#: ../custom-widget-area/includes/class.CUSTWIDGETOptionsTogglePanel.php:411
+msgid "Add"
+msgstr ""
+
+#: ../custom-widget-area/includes/class.CUSTWIDGETOptionsTogglePanel.php:416
+msgid "Loading..."
+msgstr ""
+
+#: ../custom-widget-area/includes/class.CUSTWIDGETSidebars.php:158
+#: ../custom-widget-area/includes/class.CUSTWIDGETSidebars.php:159
+msgid "Page sidebars"
+msgstr ""
+
+#: ../custom-widget-area/includes/class.CUSTWIDGETSidebars.php:184
+msgid "No widget (theme default)"
+msgstr ""
+
+#: ../envatodashboard/envatodashboard.php:36
+msgid "Envato Dashboard"
+msgstr ""
+
+#: ../user-link-feed/user-link-feed-class.php:108
+msgid "User Link Feed settings saved."
+msgstr ""
+
+#: ../user-link-feed/user-link-feed-class.php:175
+#, php-format
+msgid "\"%s\" has been saved."
+msgstr ""
+
+#: ../user-link-feed/user-link-feed-class.php:206
+msgid "&laquo;"
+msgstr ""
+
+#: ../user-link-feed/user-link-feed-class.php:207
+msgid "&raquo;"
+msgstr ""
+
+#: ../user-link-feed/user-link-feed-class.php:379
+msgid "Your URL is already exist in our database"
+msgstr ""
+
+#: ../user-link-feed/user-link-feed-class.php:426
+msgid "ReCAPTCHA error your captcha response was incorrect - please try again"
+msgstr ""
+
+#: ../user-link-feed/user-link-feed-class.php:440
+msgid "You have not input a valid link or link title and link description is empty."
+msgstr ""
+
+#: ../user-link-feed/user-link-feed-class.php:460
+msgid "Required field Name is blank"
+msgstr ""
+
+#: ../user-link-feed/user-link-feed-class.php:467
+msgid "Required field Email is not a valid email address"
+msgstr ""
+
+#: ../user-link-feed/display/options-list.php:111
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr ""
+
+#: ../wpframework/wpframework.php:36
+#: ../wpframework/wpframework.php:37
+msgid "This field is required"
+msgstr "Dit veld is verplicht"
+
+#: ../wpframework/wpframework.php:38
+msgid "Make sure this field is between 10 and 99."
+msgstr "Dit veld moet een getal zijn tussen 10 en 99"
+
+#: ../wpframework/views/settings.php:9
+msgid "Firstname"
+msgstr "Voornaam"
+
+#: ../wpframework/views/settings.php:11
+msgid "Fill in your first name."
+msgstr "Vul je voornaam in"
+
+#: ../wpframework/views/settings.php:14
+#, fuzzy
+msgid "Lastname"
+msgstr "Voornaam"
+
+#: ../wpframework/views/settings.php:16
+msgid "Fill in your last name."
+msgstr "Vul je achternaam in"
+
+#: ../wpframework/views/settings.php:19
+msgid "Age"
+msgstr ""
+
+#: ../wpframework/views/settings.php:21
+msgid "Fill in your age. Make sure that your age is between 10 and 99."
+msgstr ""
+

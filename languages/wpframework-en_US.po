@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-11 15:55+0100\n"
+"PO-Revision-Date: 2010-12-11 16:15+0100\n"
+"Last-Translator: Wim Mostmans <wim@sitebase.be>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../documents/examples/xavisys-plugin-framework.php:249
+#: ../documents/examples/efficient-related-posts/xavisys-plugin-framework.php:249
+msgid "Donate"
+msgstr ""
+
+#: ../documents/examples/xavisys-plugin-framework.php:256
+#: ../documents/examples/efficient-related-posts/xavisys-plugin-framework.php:256
+msgid "Support Forum"
+msgstr ""
+
+#: ../documents/examples/xavisys-plugin-framework.php:264
+#: ../documents/examples/efficient-related-posts/xavisys-plugin-framework.php:264
+msgid "Donate to show your appreciation."
+msgstr ""
+
+#: ../documents/examples/xavisys-plugin-framework.php:275
+#: ../documents/examples/efficient-related-posts/xavisys-plugin-framework.php:275
+msgid "Settings"
+msgstr ""
+
+#: ../documents/examples/xavisys-plugin-framework.php:292
+#: ../documents/examples/efficient-related-posts/xavisys-plugin-framework.php:292
+msgid "Like this Plugin?"
+msgstr ""
+
+#: ../documents/examples/xavisys-plugin-framework.php:293
+#: ../documents/examples/efficient-related-posts/xavisys-plugin-framework.php:293
+msgid "Need Support?"
+msgstr ""
+
+#: ../documents/examples/xavisys-plugin-framework.php:294
+#: ../documents/examples/efficient-related-posts/xavisys-plugin-framework.php:294
+msgid "Latest news from Xavisys"
+msgstr ""
+
+#: ../documents/examples/xavisys-plugin-framework.php:319
+#: ../documents/examples/efficient-related-posts/xavisys-plugin-framework.php:319
+#, php-format
+msgid "If you have any problems with this plugin or ideas for improvements or enhancements, please use the <a href=\"%s\">Xavisys Support Forums</a>."
+msgstr ""
+
+#: ../documents/examples/efficient-related-posts/efficient-related-posts.php:32
+msgid "Efficient Related Posts"
+msgstr ""
+
+#: ../documents/examples/efficient-related-posts/efficient-related-posts.php:33
+msgid "Related Posts"
+msgstr ""
+
+#: ../documents/examples/efficient-related-posts/efficient-related-posts.php:64
+msgid "General Settings"
+msgstr ""
+
+#: ../documents/examples/efficient-related-posts/efficient-related-posts.php:65
+msgid "Build Relations"
+msgstr ""
+
+#: ../documents/examples/efficient-related-posts/efficient-related-posts.php:67
+msgid "Continue Processing Posts/Pages"
+msgstr ""
+
+#: ../documents/examples/efficient-related-posts/efficient-related-posts.php:535
+msgid "Related Posts:"
+msgstr ""
+
+#: ../documents/examples/efficient-related-posts/efficient-related-posts.php:536
+msgid "No Related Posts"
+msgstr ""
+
+#: ../views/settings.php:9
+msgid "Firstname"
+msgstr "Firstname"
+
+#: ../views/settings.php:11
+msgid "This is a little test."
+msgstr "This is a little test."
+

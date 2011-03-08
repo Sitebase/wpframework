@@ -1,0 +1,37 @@
+/* Form styling */
+.options label {
+	display:block;
+	float:left;
+	font-size:12px;
+	font-weight:bold;
+	line-height:1.2em;
+	margin-right:10px;
+	padding-top:4px;
+	width:150px;
+}
+	.options label span {
+		color: #C00;
+		font-size: 10px;
+		padding-left: 4px;
+	}
+.options selec{
+	float: left;	
+}
+.options .form-invalid textarea{
+	border-color:#CC0000 !important;	
+}
+.options .error {
+	color: #c00;
+}
+
+/* Table styling */
+table.options{
+	border-top: 1px solid #E3E3E3;
+}
+table.options input, table.options textarea{
+	border: 1px solid #DFDFDF;
+}
+table.options td{
+	padding: 15px 0px;
+	border-bottom: 1px solid #E3E3E3;
+}
