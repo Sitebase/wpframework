@@ -11,10 +11,10 @@ Author URI: http://www.sitebase.be
 */
 	
 // Include library
-if(!class_exists('WpFramework_Base_0_4')) include "library/wp-framework/Base.php";
-include_once "library/wp-framework/vo/Form.php";
+if(!class_exists('WpFramework_Base_0_5')) include "library/wp-framework/Base.php";
+if(!class_exists('WpFramework_Vo_Form')) include_once "library/wp-framework/vo/Form.php";
 
-class PluginExample extends WpFramework_Base_0_4 {
+class PluginExample extends WpFramework_Base_0_5 {
 		
 		const NAME = 'Plugin Example';
 		const NAME_SLUG = 'plugin-example';
@@ -30,12 +30,12 @@ class PluginExample extends WpFramework_Base_0_4 {
 			parent::__construct();
 
 			// Define form handlers
-			include_once $this->plugin_path . '/library/wp-framework/validators/Abstract.php';
-			include_once $this->plugin_path . '/library/wp-framework/validators/NotEmpty.php';
-			include_once $this->plugin_path . '/library/wp-framework/validators/Integer.php';
+			$this->load(array('Abstract', 'NotEmpty', 'Integer', 'FileSize'), 'WpFramework_Validators_');
 			$validators['firstname'][] = new WpFramework_Validators_NotEmpty(__('This field is required'));
 			$validators['lastname'][] = new WpFramework_Validators_NotEmpty(__('This field is required'));
-			$validators['age'][] = new WpFramework_Validators_Integer(__('Make sure this field is between 10 and 99.'), 10, 99);
+			$validators['age'][] = new WpFramework_Validators_Integer(__('Make sure this field is between 10 and 99.'));
+			$validators['age'][] = new WpFramework_Validators_NotEmpty(__('This field is required.'));
+			$validators['avatar'][] = new WpFramework_Validators_FileSize(__('Maximum 200'), 100000);
 			$this->add_form_handler('save-settings', $validators, array(&$this, 'save_settings'));
 			
 		}
@@ -84,11 +84,11 @@ class PluginExample extends WpFramework_Base_0_4 {
 			$data['page'] = isset($_GET['tab']) && in_array($_GET['tab'], array("settings", "help")) ? $_GET['tab'] : "settings";
 
 			$data['options'] = $this->get_option( self::NAME_SLUG );
-			
+
 			// Validate fields and trigger form handler
 			//$data['validation'] = $this->handle_form();
 			$data['wpform'] = $this->auto_handle_forms($data['options']);
-			
+
 			// Make sure the data is secure to display
 			$clean_data = $this->clean_display_array($data);
 		

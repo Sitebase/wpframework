@@ -8,3 +8,21 @@ The following examples are included:
 - Widget
 - Custom post type
 - Plugin
+
+
+== Changelog ==
+
+= 0.5 =
+Add filter post_type_link
+Add filter post_update_messages
+Merge $_FILES and $_POST so can now also apply validators to upload fields
+Remove static from load_view method so you can use $this in your views
+Add image size validator
+Add file size validator
+Fixed bug when you add another validator before notempty
+Change lowercase directories to camelcase
+Added method load to load framework classes
+Added cache methods that uses WordPress transient
+
+= 0.1 =
+Initial version release

@@ -11,10 +11,10 @@ Author URI: http://www.sitebase.be
 */
 	
 // Include library
-if(!class_exists('WpFramework_Base_0_4')) include "library/wp-framework/Base.php";
-include_once "library/wp-framework/vo/Form.php";
+if(!class_exists('WpFramework_Base_0_5')) include "library/wp-framework/Base.php";
+if(!class_exists('WpFramework_Vo_Form')) include_once "library/wp-framework/vo/Form.php";
 
-class DashboardExample extends WpFramework_Base_0_4 {
+class DashboardExample extends WpFramework_Base_0_5 {
 		
 		const NAME = 'Dashboard Example';
 		const NAME_SLUG = 'dashboard-example';
@@ -29,8 +29,8 @@ class DashboardExample extends WpFramework_Base_0_4 {
 		public function action_wp_dashboard_setup() {
 			
 			// Validate input
-			include_once $this->plugin_path . '/library/wp-framework/validators/Abstract.php';
-			include_once $this->plugin_path . '/library/wp-framework/validators/NotEmpty.php';
+			if(!class_exists('WpFramework_Validators_Abstract')) include_once $this->plugin_path . '/library/wp-framework/validators/Abstract.php';
+			if(!class_exists('WpFramework_Validators_NotEmpty')) include_once $this->plugin_path . '/library/wp-framework/validators/NotEmpty.php';
 			$this->_form_validators['text'][] = new WpFramework_Validators_NotEmpty(__('This field is required'));
 			wp_add_dashboard_widget( self::NAME_SLUG, __( self::NAME, $this->plugin_name ), array(&$this, "display"), array(&$this, "setup") );
 		}

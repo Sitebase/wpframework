@@ -18,10 +18,10 @@
  * @author 		Sitebase (Wim Mostmans)
  * @copyright  	Copyright (c) 2011, Sitebase (http://www.sitebase.be)
  * @license    	http://www.opensource.org/licenses/bsd-license.php    BSD License
- * @version 	0.4
+ * @version 	0.5
  */
-if(!class_exists('WpFramework_Base_0_4')){
-abstract class WpFramework_Base_0_4 extends WP_Widget {
+if(!class_exists('WpFramework_Base_0_5')){
+abstract class WpFramework_Base_0_5 extends WP_Widget {
 	
 	/**
 	 * The plugin main file
@@ -168,6 +168,13 @@ abstract class WpFramework_Base_0_4 extends WP_Widget {
 	const MEDIA_SCREEN								= "screen";
 	const MEDIA_HANDHELD							= "handheld";
 	const MEDIA_PRINT								= "print";
+	
+	/**
+	 * Cache expiration constanct
+	 * @var string
+	 */
+	const TIME_HOUR									= 3600;
+	const TIME_DAY									= 43200;
 	
 	/**
 	 * Filter constants
@@ -592,12 +599,43 @@ abstract class WpFramework_Base_0_4 extends WP_Widget {
 	 * @param int $ttl	Time to live in seconds
 	 * @
 	 */
-	protected function is_valid_cache($file, $ttl){
+	protected function is_valid_cache_file($file, $ttl){
 		if(file_exists($file) && (filemtime($file) > (time() - $ttl))){
 			return TRUE;
 		}else{
 			return FALSE;	
 		}
+	}
+	
+	/**
+	 * Save data to cache
+	 * 
+	 * @param string $name
+	 * @param * $value
+	 * @param int $expiration
+	 */
+	public function save_cache($name, $value, $expiration=null) {
+		set_transient($name, $value, $expiration);
+	}
+	
+	/**
+	 * Get cache
+	 * 
+	 * @param $name
+	 * @return *
+	 */
+	public function get_cache($name) {
+		return get_transient($name);
+	}
+	
+	/**
+	 * Delete a cache items
+	 * 
+	 * @param string $name
+	 * @return void
+	 */
+	public function delete_cache($name) {
+		delete_transient($name);
 	}
 	
 	/**
@@ -652,7 +690,7 @@ abstract class WpFramework_Base_0_4 extends WP_Widget {
 	 * @param array $data	Data that you want to use in the template
 	 * @return void
 	 */
-	public static function load_view($file, $data=array(), $echo=true){
+	public function load_view($file, $data=array(), $echo=true){
 		
 		// Make variables
 		extract( $data );
@@ -728,13 +766,13 @@ abstract class WpFramework_Base_0_4 extends WP_Widget {
 	public static function handle_form($defaults, $validators=null, $callback=null){
 
 		// Validate form fields
-		$validation_results = self::validate_fields($_POST, $validators);
+		$validation_results = self::validate_fields(array_merge($_POST, $_FILES), $validators);
 
 		// Call form handler method if there is one defined and form is valid
 		// Else return the validation result
 		if(self::is_form_valid($validation_results) && isset($callback)){
 			if(is_callable($callback, false)){
-				$form_vo = new WpFramework_Vo_Form(array_merge($defaults, $_POST));
+				$form_vo = new WpFramework_Vo_Form(array_merge($defaults, $_POST, $_FILES));
 				$form_vo->setSaved(true);
 				call_user_func($callback, &$form_vo);
 				return $form_vo;
@@ -742,7 +780,7 @@ abstract class WpFramework_Base_0_4 extends WP_Widget {
 				throw new Exception('Form handler method "' . $current_form_handler[1] . '" is not callable.');
 			}
 		}else{
-			$form_vo = new WpFramework_Vo_Form(array_merge($defaults, $_POST), $validation_results);
+			$form_vo = new WpFramework_Vo_Form(array_merge($defaults, $_POST, $_FILES), $validation_results);
 			return $form_vo;
 		} 
 		
@@ -759,16 +797,23 @@ abstract class WpFramework_Base_0_4 extends WP_Widget {
 		$results = array();
 		foreach($data as $key => $value){
 			if(isset($validators[$key]) && count($validators[$key]) > 0){
+				
+				// Need to do a separate loop because otherwise
+				// if another validator is added before the NotEmpty validator
+				// the field will not show an error if it's empty although it's required.
 				$is_required = false;
 				foreach($validators[$key] as $validator){
-						if(get_class($validator) == 'WpFramework_Validators_NotEmpty') $is_required = true;
+					if(get_class($validator) == 'WpFramework_Validators_NotEmpty') $is_required = true;
+				}
+				
+				foreach($validators[$key] as $validator){
 						$valid = $validator->Validate($value);
 						if(!$valid){
 							$results[$key][] = $validator->GetMessage();
 							break;
 						}
 				}
-				if(!$is_required && trim($value) == '') {
+				if(!$is_required && !is_array($value) && trim($value) == '') {
 					unset($results[$key]);
 				}
 			}
@@ -934,6 +979,35 @@ abstract class WpFramework_Base_0_4 extends WP_Widget {
 	 * @return void
 	 */
 	public function form($instance) {}
+	
+	/**
+	 * Load method to load core classes like validators or value objects
+	 * 
+	 * @param string/array $class
+	 * @param string $prefix	Prefix to use if you load an array of classes. This way you don't always need to include the complete prefix
+	 * @return void
+	 */
+	public function load($class, $prefix=null) {
+		if(is_array($class)){
+			foreach($class as $res) {
+				if(isset($prefix)) $res = $prefix . $res;
+				self::_load($res);
+			}
+			return;
+		}
+		if(isset($prefix)) $class = $prefix . $class;
+		$this->_load($class);
+	}
+	
+	private function _load($class) {
+		$path = str_replace(array('_', 'WpFramework'), array('/', ''), $class) . '.php';
+		$full_path = self::clean_path(dirname(__FILE__)) . $path;
+		if(!class_exists($class) && file_exists($full_path)) {
+			require_once $full_path;
+		}
+	}
+	
+	
 	
 	/**
 	 * WP_Widget trigger
@@ -1393,6 +1467,8 @@ abstract class WpFramework_Base_0_4 extends WP_Widget {
 	public function filter_wp_mail_from(){}
 	public function filter_wp_mail_from_name(){}
 	public function filter_pre_update_option_active_plugins(){}
+	public function filter_post_type_link(){}
+	public function filter_post_updated_messages(){}
 	public function activate(){}
 	public function deactivate(){}
 }
