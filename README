@@ -9,6 +9,10 @@ The following examples are included:
 - Custom post type
 - Plugin
 
+== Tips ==
+- When creating a widget from the template don't forget to you need to change the class name and the class constructor name!
+
+
 
 == Changelog ==
 
