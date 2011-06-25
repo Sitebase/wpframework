@@ -108,7 +108,7 @@ class WpFramework_Vo_Form {
 	 */
 	public function getField($name, $sanitize=true) {
 		if(isset($this->_data[$name])) {
-			return $sanitize ? wp_specialchars($this->_data[$name]) : $this->_data[$name];
+			return $sanitize ? esc_html($this->_data[$name]) : $this->_data[$name];
 		}
 		return;
 	}
@@ -121,7 +121,7 @@ class WpFramework_Vo_Form {
 	 */
 	public function getFields($sanitize=false) {
 		if($sanitize) {
-			return array_map('wp_specialchars', $this->_data);
+			return array_map('esc_html', $this->_data);
 		}
 		return $this->_data;
 	}
