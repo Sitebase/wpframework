@@ -92,6 +92,7 @@ class CptExample extends WpFramework_Base_0_5 {
 		function options(){
 			global $post;
 			$data = $this->get_post_meta($post->ID, array_keys($this->_form_fields_default));
+			if(!is_array($data)) $data = array();
 			
 			// If not isset the form is not submitted
 			$validation_results = $this->validate_fields(array_merge($this->_form_fields_default, $data), $this->_form_validators);
