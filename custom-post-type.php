@@ -91,9 +91,19 @@ class CptExample extends WpFramework_Base_0_5 {
 		
 		function options(){
 			global $post;
-			$data = $this->get_post_meta($post->ID, array_keys($this->_form_fields_default));
-			
+      
+                        $post_meta = $this->get_post_meta($post->ID, array_keys($this->_form_fields_default));
+			if (!is_null($post_meta)) {
+                            $data = $post_meta;
+                        } else {
+                            $data = array();
+                        }
+
 			// If not isset the form is not submitted
+      
+			$validation_results = $this->validate_fields(array_merge($this->_form_fields_default, $data), $this->_form_validators);
+			$data['wpform'] = new WpFramework_Vo_Form(array_merge($this->_form_fields_default, $data), $validation_results);
+			$this->load_view($this->plugin_path . "/views/cpt-options.php", $data);
 			$validation_results = $this->validate_fields(array_merge($this->_form_fields_default, $data), $this->_form_validators);
 			$data['wpform'] = new WpFramework_Vo_Form(array_merge($this->_form_fields_default, $data), $validation_results);
 			$this->load_view($this->plugin_path . "/views/cpt-options.php", $data);
