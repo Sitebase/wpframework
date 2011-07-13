@@ -12,7 +12,7 @@ Author URI: http://www.sitebase.be
 	
 // Include library
 if(!class_exists('WpFramework_Base_0_5')) include "library/wp-framework/Base.php";
-if(!class_exists('WpFramework_Vo_Form')) include_once "library/wp-framework/vo/Form.php";
+if(!class_exists('WpFramework_Vo_Form')) include_once "library/wp-framework/Vo/Form.php";
 
 class PluginExample extends WpFramework_Base_0_5 {
 		

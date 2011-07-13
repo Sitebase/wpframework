@@ -12,7 +12,7 @@ Author URI: http://www.sitebase.be
 	
 // Include library
 if(!class_exists('WpFramework_Base_0_5')) include "library/wp-framework/Base.php";
-if(!class_exists('WpFramework_Vo_Form')) include_once "library/wp-framework/vo/Form.php";
+if(!class_exists('WpFramework_Vo_Form')) include_once "library/wp-framework/Vo/Form.php";
 
 class WidgetExample extends WpFramework_Base_0_5 {
 		
@@ -32,8 +32,8 @@ class WidgetExample extends WpFramework_Base_0_5 {
 		$this->WP_Widget(self::NAME_SLUG, self::NAME, $widget_ops);
 		
 		// Validate input
-		if(!class_exists('WpFramework_Validators_Abstract')) include_once $this->plugin_path . '/library/wp-framework/validators/Abstract.php';
-		if(!class_exists('WpFramework_Validators_NotEmpty')) include_once $this->plugin_path . '/library/wp-framework/validators/NotEmpty.php';
+		if(!class_exists('WpFramework_Validators_Abstract')) include_once $this->plugin_path . '/library/wp-framework/Validators/Abstract.php';
+		if(!class_exists('WpFramework_Validators_NotEmpty')) include_once $this->plugin_path . '/library/wp-framework/Validators/NotEmpty.php';
 		$this->_form_validators['title'][] = new WpFramework_Validators_NotEmpty(__('This field is required'));
 		$this->_form_validators['text'][] = new WpFramework_Validators_NotEmpty(__('This field is required'));
 	}

@@ -12,7 +12,7 @@ Author URI: http://www.sitebase.be
 	
 // Include library
 if(!class_exists('WpFramework_Base_0_5')) include "library/wp-framework/Base.php";
-if(!class_exists('WpFramework_Vo_Form')) include_once "library/wp-framework/vo/Form.php";
+if(!class_exists('WpFramework_Vo_Form')) include_once "library/wp-framework/Vo/Form.php";
 
 class CptExample extends WpFramework_Base_0_5 {
 		
@@ -47,10 +47,10 @@ class CptExample extends WpFramework_Base_0_5 {
 			parent::__construct();
 			
 			// Validate input
-			if(!class_exists('WpFramework_Validators_Abstract')) include_once $this->plugin_path . '/library/wp-framework/validators/Abstract.php';
-			if(!class_exists('WpFramework_Validators_NotEmpty')) include_once $this->plugin_path . '/library/wp-framework/validators/NotEmpty.php';
-			if(!class_exists('WpFramework_Validators_Url')) include_once $this->plugin_path . '/library/wp-framework/validators/Url.php';
-			if(!class_exists('WpFramework_Validators_Integer')) include_once $this->plugin_path . '/library/wp-framework/validators/Integer.php';
+			if(!class_exists('WpFramework_Validators_Abstract')) include_once $this->plugin_path . '/library/wp-framework/Validators/Abstract.php';
+			if(!class_exists('WpFramework_Validators_NotEmpty')) include_once $this->plugin_path . '/library/wp-framework/Validators/NotEmpty.php';
+			if(!class_exists('WpFramework_Validators_Url')) include_once $this->plugin_path . '/library/wp-framework/Validators/Url.php';
+			if(!class_exists('WpFramework_Validators_Integer')) include_once $this->plugin_path . '/library/wp-framework/Validators/Integer.php';
 			$this->_form_validators['website_url'][] = new WpFramework_Validators_NotEmpty(__('This field is required'));
 			$this->_form_validators['website_url'][] = new WpFramework_Validators_Url(__('This isn\'t a valid URL'));
 			$this->_form_validators['year'][] = new WpFramework_Validators_Integer(__('This input must be a numeric value'));
