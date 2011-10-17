@@ -25,7 +25,7 @@ class PluginExample extends WpFramework_Base_0_6 {
 		 * @return void
 		 */
 		public function __construct(){
-			
+
 			// Call parent constructor
 			parent::__construct();
 

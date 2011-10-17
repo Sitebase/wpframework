@@ -28,7 +28,8 @@ class WpFramework_Validators_NotEmpty extends WpFramework_Validators_Abstract
 	 */
 	public function validate($string){
 		$trim_value = trim($string);
-		return !empty($trim_value);
+        // Not use empty() because in that case 0 is also invalid
+		return !($trim_value == "");
 	}
 		
 }

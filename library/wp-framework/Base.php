@@ -182,7 +182,6 @@ abstract class WpFramework_Base_0_6 extends WP_Widget {
 	//const FILTER_THE_CONTENT						= "the_content";
 	
 	public function __construct(){
-
 		// Set plugin path information
 		$full_path = $this->get_child_path();
 		$this->plugin_file = basename($full_path);
@@ -748,7 +747,7 @@ abstract class WpFramework_Base_0_6 extends WP_Widget {
 		if(!count($_POST) || !count($this->form_handlers)) return new WpFramework_Vo_Form($defaults);
 		foreach($this->form_handlers as $key => $settings) {
 			if(isset($_POST[$key])){
-				$form_vo = $this->handle_form($defaults, $settings['validators'], $settings['callback']);	
+				$form_vo = $this->handle_form($defaults, $settings['validators'], $settings['callback']);
 			}
 		}
 		return $form_vo;
