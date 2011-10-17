@@ -16,6 +16,12 @@ The following examples are included:
 
 == Changelog ==
 
+= 0.6 =
+Remove deprecated function use
+Add extra filter and action
+Skip extract in load_view if array has no values
+NotEmpty validator now also accepts 0 as value
+
 = 0.5 =
 Add filter post_type_link
 Add filter post_update_messages
