@@ -1185,6 +1185,7 @@ abstract class WpFramework_Base_0_6 extends WP_Widget {
 	public function action_loop_end(){}
 	public function action_loop_start(){}
 	public function action_sanitize_comment_cookies(){}
+    public function action_wp_scheduled_delete(){}
 	
 	
 	public function filter_plugin_action_links($links){}
@@ -1471,6 +1472,8 @@ abstract class WpFramework_Base_0_6 extends WP_Widget {
 	public function filter_pre_update_option_active_plugins(){}
 	public function filter_post_type_link(){}
 	public function filter_post_updated_messages(){}
+    public function filter_media_buttons_context(){}
+
 	public function activate(){}
 	public function deactivate(){}
 }
