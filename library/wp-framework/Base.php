@@ -18,10 +18,10 @@
  * @author 		Sitebase (Wim Mostmans)
  * @copyright  	Copyright (c) 2011, Sitebase (http://www.sitebase.be)
  * @license    	http://www.opensource.org/licenses/bsd-license.php    BSD License
- * @version 	0.5
+ * @version 	0.6
  */
-if(!class_exists('WpFramework_Base_0_5')){
-abstract class WpFramework_Base_0_5 extends WP_Widget {
+if(!class_exists('WpFramework_Base_0_6')){
+abstract class WpFramework_Base_0_6 extends WP_Widget {
 	
 	/**
 	 * The plugin main file
@@ -693,7 +693,9 @@ abstract class WpFramework_Base_0_5 extends WP_Widget {
 	public function load_view($file, $data=array(), $echo=true){
 		
 		// Make variables
-		extract( $data );
+        if(is_array($data) && (count($data) > 0)) {
+		    extract( $data );
+        }
 		
 		// Check if template exists
 		if( file_exists($file) ){

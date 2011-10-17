@@ -11,10 +11,10 @@ Author URI: http://www.sitebase.be
 */
 	
 // Include library
-if(!class_exists('WpFramework_Base_0_5')) include "library/wp-framework/Base.php";
+if(!class_exists('WpFramework_Base_0_6')) include "library/wp-framework/Base.php";
 if(!class_exists('WpFramework_Vo_Form')) include_once "library/wp-framework/Vo/Form.php";
 
-class CptExample extends WpFramework_Base_0_5 {
+class CptExample extends WpFramework_Base_0_6 {
 		
 		const NAME = 'CPT Example';
 		const NAME_SLUG = 'cpt-example';
