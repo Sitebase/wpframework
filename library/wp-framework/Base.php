@@ -769,6 +769,9 @@ abstract class WpFramework_Base_0_6 extends WP_Widget {
 		// Validate form fields
 		$validation_results = self::validate_fields(array_merge($_POST, $_FILES), $validators);
 
+		// Set defaults to array if not array
+		if(!is_array($defaults)) $defaults = array();
+
 		// Call form handler method if there is one defined and form is valid
 		// Else return the validation result
 		if(self::is_form_valid($validation_results) && isset($callback)){
