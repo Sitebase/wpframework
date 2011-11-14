@@ -1,0 +1,17 @@
+/**
+ * CSS Styling for tables. For example that tables used
+ * to layout the settings forms
+ *
+ * @package WPFramework
+ * @author Sitebase (www.sitebase.be)
+ * @version 1.0
+ * @license ${license}
+ * @copyright Sitebase
+ */
+.wpf_table {
+    border-top: 1px solid #EDEDED;
+}
+.wpf_table td {
+    padding: 15px 5px;
+    border-bottom: 1px solid #EDEDED;
+}

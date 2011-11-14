@@ -106,7 +106,8 @@ class CptExample extends WpFramework_Base_0_6 {
 		 * @return void
 		 */
 		public function action_admin_print_styles() {
-			$this->enqueue_style('cpt-portfolio-style',  $this->plugin_url . '/assets/cpt.css', null, '1.0'); 
+			//$this->enqueue_style('cpt-portfolio-style',  $this->plugin_url . '/assets/cpt.css', null, '1.0');
+            $this->enqueue_style('wpframeworktest-style',  $this->plugin_url . '/assets/css/wpf.css', null, '1.0');
 		}
 
 }

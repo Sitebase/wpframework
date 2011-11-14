@@ -1026,6 +1026,22 @@ abstract class WpFramework_Base_0_6 extends WP_Widget {
 	public function WP_Widget( $id_base = false, $name, $widget_options = array(), $control_options = array() ) {
 		parent::__construct( $id_base, $name, $widget_options, $control_options );
 	}
+
+    /**
+     * Get admin page nav tabs
+     *
+     * @param array $tabs
+     * @return string
+     */
+    public function getNavTabs($tabs) {
+        $html = "";
+        $html_tab_format = '<a class="nav-tab%s" href="%s">%s</a>';
+        foreach($tabs as $key => $name) {
+            $class = isset($_GET['tab']) && $_GET['tab'] == $key ? ' nav-tab-active' : '';
+            $html .= sprintf($html_tab_format, $class, $this->get_current_url(array('tab')) . '&tab=' . $key, $name);
+        }
+        return $html;
+    }
 	
 	/** 
 	 * Overwritable functions

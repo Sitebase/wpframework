@@ -55,8 +55,8 @@ class PluginExample extends WpFramework_Base_0_6 {
 		 * @return void
 		 */
 		public function action_admin_print_styles() {
-			if($_GET['page'] == self::NAME_SLUG) {
-				$this->enqueue_style('wpframeworktest-style',  $this->plugin_url . '/assets/style.css', null, '1.0'); 
+			if(isset($_GET['page']) && $_GET['page'] == self::NAME_SLUG) {
+				$this->enqueue_style('wpframeworktest-style',  $this->plugin_url . '/assets/css/wpf.css', null, '1.0');
 			}
 		}
 		
@@ -66,7 +66,7 @@ class PluginExample extends WpFramework_Base_0_6 {
 		 * @return void
 		 */
 		public function action_admin_print_scripts() {
-			if($_GET['page'] == self::NAME_SLUG) {
+			if(isset($_GET['page']) && $_GET['page'] == self::NAME_SLUG) {
 				$this->enqueue_script('jquery');
 				$this->enqueue_script('wpframeworktest-style',  $this->plugin_url . '/assets/script.js', array("jquery"), '1.0'); 
 			}

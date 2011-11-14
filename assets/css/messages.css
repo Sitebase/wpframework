@@ -1,0 +1,157 @@
+/**
+ * This CSS file contains styling for all messages
+ */
+
+.wpf_message {
+    margin: 2px 0 10px 0;
+    padding: 0 12px;
+    background-color: #F8F8F8;
+    background: linear-gradient(top,
+         white,
+         #F0F0F0 2%,
+         #E4E4E4
+     );
+    border-color: #E4E4E4 #D9D9D9 #CBCBCB;
+    background: -moz-linear-gradient(top,
+         white,
+         #F0F0F0 2%,
+         #E4E4E4
+     );
+    background: -webkit-gradient(linear, left top, left bottom,
+         from(white),
+         color-stop(0.02, #F0F0F0),
+         to(#E4E4E4)
+     );
+    background: linear-gradient(top,
+         white,
+         #F0F0F0 2%,
+         #E4E4E4
+     );
+    filter: PROGID:DXImageTransform.Microsoft.Gradient(StartColorStr='#f0f0f0',EndColorStr='#e4e4e4');
+    border: 1px solid #DFDFDF;
+    text-shadow: 0 1px 0 white;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.wpf_message p {
+    color: #4F4F4F;
+    line-height: 18px;
+}
+
+.wpf_message.success {
+    background-color: #dde6ba;
+	border-color: #d0e289 #c6d881 #b8cb71;
+	background: -moz-linear-gradient(top,
+		#fff,
+		#e6efc2 2%,
+		#d9e2b7
+	);
+	background: -webkit-gradient(linear, left top, left bottom,
+		from(#fff),
+		color-stop(0.02, #e6efc2),
+		to(#d9e2b7)
+	);
+	background: linear-gradient(top,
+		#fff,
+		#e6efc2 2%,
+		#d9e2b7
+	);
+	filter: PROGID:DXImageTransform.Microsoft.Gradient(StartColorStr='#e6efc2',EndColorStr='#d9e2b7');
+}
+
+.wpf_message.problem {
+    background-color: #f6dbd6;
+	border-color: #f7d5d6 #f1c8ca #f2b5b8;
+	background: -moz-linear-gradient(top,
+		#fff,
+		#fbe2e3 2%,
+		#eeccce
+	);
+	background: -webkit-gradient(linear, left top, left bottom,
+		from(#fff),
+		color-stop(0.02, #fbe2e3),
+		to(#eeccce)
+	);
+	background: linear-gradient(top,
+		#fff,
+		#fbe2e3 2%,
+		#eeccce
+	);
+	filter: PROGID:DXImageTransform.Microsoft.Gradient(StartColorStr='#fbe2e3',EndColorStr='#eeccce');
+}
+
+.wpf_message.tip {
+    background: linear-gradient(top,
+         white,
+         #E0F4FF 2%,
+         #D4E6F0
+     );
+    border-color: #B8E1FD #A6D4F4 #9ED1F5;
+    background: -moz-linear-gradient(top,
+         white,
+         #E0F4FF 2%,
+         #D4E6F0
+     );
+    background: -webkit-gradient(linear, left top, left bottom,
+         from(white),
+         color-stop(0.02, #E0F4FF),
+         to(#D4E6F0)
+     );
+    background: linear-gradient(top,
+         white,
+         #E0F4FF 2%,
+         #D4E6F0
+     );
+    filter: PROGID:DXImageTransform.Microsoft.Gradient(StartColorStr='#e0f4ff',EndColorStr='#d4e6f0');
+}
+
+.wpf_message.warning {
+    background: linear-gradient(top,
+         white,
+         #FFFFB9 2%,
+         #F0EFAE
+     );
+    border-color: #F7DC72 #F4D96C #EACE61;
+    background: -moz-linear-gradient(top,
+         white,
+         #FFFFB9 2%,
+         #F0EFAE
+     );
+    background: -webkit-gradient(linear, left top, left bottom,
+         from(white),
+         color-stop(0.02, #FFFFB9),
+         to(#F0EFAE)
+     );
+    background: linear-gradient(top,
+         white,
+         #FFFFB9 2%,
+         #F0EFAE
+     );
+    filter: PROGID:DXImageTransform.Microsoft.Gradient(StartColorStr='#ffffb9',EndColorStr='#f0efae');
+}
+
+.base_message {
+	border: 1px solid;
+	border-bottom-width: 2px;
+	color: #4f4f4f;
+	display: block;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+	font-size: 11px;
+	line-height: 19px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	position: relative;
+	-moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.15), 0px 0px 2px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.15), 0px 0px 2px rgba(0,0,0,0.05);
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.15), 0px 0px 2px rgba(0,0,0,0.05);
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.base_message.error {
+	/* GENERAL */
+
+}

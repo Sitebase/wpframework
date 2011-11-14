@@ -1,0 +1,113 @@
+/**
+ * CSS Styling forms
+ *
+ * @package WPFramework
+ * @author Sitebase (www.sitebase.be)
+ * @version 1.0
+ * @license ${license}
+ * @copyright Sitebase
+ */
+.wpframework label {
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin-right: 10px;
+    padding-top: 4px;
+    /*width: 150px;*/
+}
+
+/** Required start **/
+.wpframework label span, .legend-required span {
+    color: #239CCC;
+    font-size: 12px;
+    padding-left: 4px;
+}
+
+.wpframework input,
+.wpframework textarea {
+    border: 1px solid #DFDFDF;
+    padding: 4px;
+}
+.wpframework li input,
+.wpframework li textarea,
+.wpframework li select {
+    width: 100%;
+}
+.wpframework .input-file {
+    position: relative
+}
+.wpframework input[type="file"] {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+.wpframework .button-primary, .wpframework .button {
+    font-size: 11px !important;
+    padding: 5px 8px;
+}
+
+/** Checkbox/radio list **/
+.wpframework .form-field label{
+    display: block;
+    float: none;
+    font-size: 11px;
+}
+.wpframework .form-field label input{
+    display: inline-block;
+    float: left;
+    width: auto;
+    margin-right: 5px;
+}
+
+/** Form extra elements **/
+.wpframework fieldset {
+    margin-bottom: 14px;
+}
+.wpframework fieldset legend {
+    border-top: 1px solid #EDEDED;
+    padding: 4px 10px;
+    font-weight: bold;
+    background-color: #F8F8F8;
+    display: block;
+    width: 100%;
+    color: #999;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+/** Form fields holder labe/field/description **/
+.wpframework .field-holder {
+    border-top: 1px solid #EDEDED;
+}
+    .wpframework .field-holder li {
+        padding: 15px 5px;
+        border-bottom: 1px solid #EDEDED;
+    }
+    .wpframework .field-holder .form-label, .field-holder .form-field, .field-holder .form-description {
+        float: left;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+    }
+    .wpframework .field-holder .form-label {
+        width: 20%;
+    }
+    .wpframework .field-holder .form-field {
+        width: 40%;
+    }
+    .wpframework .field-holder .form-description {
+        width: 40%;
+        padding: 7px 0 0 10px;
+    }

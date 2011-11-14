@@ -1,0 +1,73 @@
+<div class="wpf_message warning legend-required"><p>Fields marked with <span>*</span> are required.</p></div>
+
+        <fieldset>
+            <legend>Global settings</legend>
+            <ul class="field-holder">
+                <li>
+                    <div class="form-label"><label for="firstname">q sdfqsdfqsfdqsfqsdf dqsfqsdf<?php echo __('Firstname', $this->plugin_name) ?><span>*</span></label></div>
+                    <div class="form-field"><input type="text" id="firstname" name="firstname" value="<?php echo $wpform->getField('firstname'); ?>" /></div>
+                    <div class="form-description wpfextra wpfsmall"><?php echo $wpform->hasErrors('firstname') ? '<span class="error">' . $wpform->getErrors('firstname', 1) . '</span>' : __('Fill in your first name.', $this->plugin_name) ?></div>
+                </li>
+                <li>
+                    <div class="form-label"><label for="firstname"><?php echo __('Firstname', $this->plugin_name) ?><span>*</span></label></div>
+                    <div class="form-field"><input type="text" id="firstname" name="firstname" value="<?php echo $wpform->getField('firstname'); ?>" /></div>
+                    <div class="form-description wpfextra wpfsmall"><?php echo $wpform->hasErrors('firstname') ? '<span class="error">' . $wpform->getErrors('firstname', 1) . '</span>' : __('Fill in your first name.', $this->plugin_name) ?></div>
+                </li>
+                <li>
+                    <div class="form-label"><label for="firstname"><?php echo __('Firstname', $this->plugin_name) ?><span>*</span></label></div>
+                    <div class="form-field"><input type="text" id="firstname" name="firstname" value="<?php echo $wpform->getField('firstname'); ?>" /></div>
+                    <div class="form-description wpfextra wpfsmall"><?php echo $wpform->hasErrors('firstname') ? '<span class="error">' . $wpform->getErrors('firstname', 1) . '</span>' : __('Fill in your first name.', $this->plugin_name) ?></div>
+                </li>
+                <li>
+                    <div class="form-label"><label for="firstname"><?php echo __('Firstname', $this->plugin_name) ?><span>*</span></label></div>
+                    <div class="form-field"><input type="text" id="firstname" name="firstname" value="<?php echo $wpform->getField('firstname'); ?>" /></div>
+                    <div class="form-description wpfextra wpfsmall"><?php echo $wpform->hasErrors('firstname') ? '<span class="error">' . $wpform->getErrors('firstname', 1) . '</span>' : __('Fill in your first name.', $this->plugin_name) ?></div>
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Global settings</legend>
+            <ul class="field-holder">
+                <li>
+                    <div class="form-label"><label for="firstname"><?php echo __('Firstname', $this->plugin_name) ?><span>*</span></label></div>
+                    <div class="form-field"><select class="tz-input" name="tz_primary_nav_order" id="tz_primary_nav_order"><option>post_title</option><option>menu_order</option><option selected="selected">ID</option></select></div>
+                    <div class="form-description wpfextra wpfsmall"><?php echo $wpform->hasErrors('firstname') ? '<span class="error">' . $wpform->getErrors('firstname', 1) . '</span>' : __('Fill in your first name.', $this->plugin_name) ?></div>
+                </li>
+                <li>
+                    <div class="form-label"><label for="firstname"><?php echo __('Firstname', $this->plugin_name) ?><span>*</span></label></div>
+                    <div class="form-field"><a class="button-primary input-file">Choose file<input type="file" id="avatar" name="avatar" /></a></div>
+                    <div class="form-description wpfextra wpfsmall"><?php echo $wpform->hasErrors('firstname') ? '<span class="error">' . $wpform->getErrors('firstname', 1) . '</span>' : __('Fill in your first name.', $this->plugin_name) ?></div>
+                </li>
+                <li>
+                    <div class="form-label"><label for="firstname"><?php echo __('Firstname', $this->plugin_name) ?><span>*</span></label></div>
+                    <div class="form-field"><textarea id="test"></textarea></div>
+                    <div class="form-description wpfextra wpfsmall"><?php echo $wpform->hasErrors('firstname') ? '<span class="error">' . $wpform->getErrors('firstname', 1) . '</span>' : __('Fill in your first name.', $this->plugin_name) ?></div>
+                </li>
+                <li>
+                    <div class="form-label"><label for="firstname"><?php echo __('Firstname', $this->plugin_name) ?><span>*</span></label></div>
+                    <div class="form-field"><input type="checkbox" name="test" /></div>
+                    <div class="form-description wpfextra wpfsmall"><?php echo $wpform->hasErrors('firstname') ? '<span class="error">' . $wpform->getErrors('firstname', 1) . '</span>' : __('Fill in your first name.', $this->plugin_name) ?></div>
+                </li>
+                <li>
+                    <div class="form-label"><label for="firstname"><?php echo __('Firstname', $this->plugin_name) ?><span>*</span></label></div>
+                    <div class="form-field">
+                        <label><input type="checkbox" name="languages[]" /> PHP</label>
+                        <label><input type="checkbox" name="languages[]" /> Javascript</label>
+                        <label><input type="checkbox" name="languages[]" /> C#</label>
+                        <label><input type="checkbox" name="languages[]" /> Python</label>
+                    </div>
+                    <div class="form-description wpfextra wpfsmall"><?php echo $wpform->hasErrors('firstname') ? '<span class="error">' . $wpform->getErrors('firstname', 1) . '</span>' : __('Fill in your first name.', $this->plugin_name) ?></div>
+                </li>
+                <li>
+                    <div class="form-label"><label for="firstname"><?php echo __('Firstname', $this->plugin_name) ?><span>*</span></label></div>
+                    <div class="form-field">
+                        <label><input type="radio" name="languages[]" /> PHP</label>
+                        <label><input type="radio" name="languages[]" /> Javascript</label>
+                        <label><input type="radio" name="languages[]" /> C#</label>
+                        <label><input type="radio" name="languages[]" /> Python</label>
+                    </div>
+                    <div class="form-description wpfextra wpfsmall"><?php echo $wpform->hasErrors('firstname') ? '<span class="error">' . $wpform->getErrors('firstname', 1) . '</span>' : __('Fill in your first name.', $this->plugin_name) ?></div>
+                </li>
+            </ul>
+        </fieldset>

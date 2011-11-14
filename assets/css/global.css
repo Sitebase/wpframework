@@ -1,0 +1,128 @@
+/**
+ * CSS Global styles
+ *
+ * @package WPFramework
+ * @author Sitebase (www.sitebase.be)
+ * @version 1.0
+ * @license ${license}
+ * @copyright Sitebase
+ */
+
+/** Clearfix **/
+.clearfix:before, .clearfix:after, .field-holder li:before, .field-holder li:after { content: ""; display: table; }
+.clearfix:after, .field-holder li:after { clear: both; }
+.clearfix, .field-holder li { zoom: 1; }
+
+/** Main styling **/
+.wpf_content {
+    width: 100%;
+    box-shadow: 0 0 3px #c3c3c3;
+    -webkit-box-shadow: 0 0 3px #c3c3c3;
+    border-radius: 10px;
+    background-color: #F8F8F8;
+    overflow: hidden;
+    position: relative;
+    margin: 20px 20px 0 0;
+}
+.wpf_content .container {
+    background-color: #FFF;
+    height: 100%;
+    box-shadow: inherit;
+    -webkit-box-shadow: inherit;
+    overflow: auto;
+    z-index: 1000;
+    margin-right: 22%;
+}
+.wpf_content .content {
+    margin:  20px;
+    line-height: 26px;
+}
+    .wpf_content .content h2 {
+        font-size: 18px;
+        padding-top: 0px;
+    }
+    .wpf_content .content img, .wpf_content .content video {
+        border: 1px solid #EDEDED;
+        padding: 5px;
+        background: #FFF;
+    }
+    .wpf_content .content img.left, .wpf_content .content img.right {
+        margin: 5px 11px 11px 0;
+    }
+    .wpf_content .content figure {
+        text-align: center;
+    }
+    .wpf_content .content figcaption {
+        color: #888;
+        font-size: 11px;
+        font-style: italic;
+        line-height: 14px;
+        text-align: center;
+        vertical-align: baseline;
+        display: block;
+        padding-top: 5px;
+    }
+
+
+/** Side styling **/
+.wpf_content .side {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 22%;
+}
+    .wpf_content h3 {
+        display: block;
+        font-size: 1.17em;
+        font-weight: normal;
+        margin: 1em 0 0.3em 0;
+        color: #666;
+    }
+    .wpf_content h4 {
+        display: block;
+        font-size: 1.00em;
+        font-weight: normal;
+        margin: 0.5em 0;
+        color: #888;
+    }
+    .wpf_content .side p {
+        font-size: 11px;
+        color: #333;
+    }
+    .wpf_content .side ul {
+        font-size: 11px;
+        color: #333;
+        list-style: disc;
+        list-style-position: inside;
+    }
+    .wpf_content .side img {
+        border: 1px solid #EDEDED;
+        padding: 5px;
+        background: #FFF;
+    }
+
+
+/** Extra stylings **/
+.wpframework .wpfextra {
+	color: #999;
+}
+.wpframework .error {
+    color: #c00;
+}
+.wpframework .wpfsmall {
+	font-size: 10px;
+	line-height: 12px;
+}
+.wpframework blockquote {
+	border-left: 4px solid #656565;
+	padding: 5px 0 5px 10px;
+}
+.wpframework .left { float: left; }
+.wpframework .right { float: right; }
+
+/** Form footer/header with save buttons **/
+.wpframework .wpf_header, .wpframework .wpf_footer {
+    padding: 10px;
+    margin-right: 22%;
+    height: 10px;
+}
