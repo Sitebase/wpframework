@@ -724,7 +724,7 @@ abstract class WpFramework_Base_0_6 extends WP_Widget {
 	 */
 	protected function clean_display_string($value){
 		if(!is_string($value)) return $value;
-		return stripslashes(wp_specialchars($value));
+		return stripslashes(esc_html($value));
 	}
 	
 	/**
@@ -1036,11 +1036,15 @@ abstract class WpFramework_Base_0_6 extends WP_Widget {
      * @param array $tabs
      * @return string
      */
-    public function getNavTabs($tabs) {
+    public function getNavTabs($tabs, $current=null) {
         $html = "";
         $html_tab_format = '<a class="nav-tab%s" href="%s">%s</a>';
         foreach($tabs as $key => $name) {
-            $class = isset($_GET['tab']) && $_GET['tab'] == $key ? ' nav-tab-active' : '';
+			if(!is_null($current)) {
+				$class = $current == $key ? ' nav-tab-active' : '';
+			} else {
+            	$class = isset($_GET['tab']) && $_GET['tab'] == $key ? ' nav-tab-active' : '';
+			}
             $html .= sprintf($html_tab_format, $class, $this->get_current_url(array('tab')) . '&tab=' . $key, $name);
         }
         return $html;

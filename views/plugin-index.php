@@ -1,7 +1,7 @@
 <div class="wrap wpframework ">
 	<div class="icon32" id="icon-options-general"><br></div>
 	<h2 class="nav-tab-wrapper">
-        <?php echo $this->getNavTabs(array('settings' => 'Settings', 'help' => 'Help')); ?>
+        <?php echo $this->getNavTabs(array('settings' => 'Settings', 'help' => 'Help'), $page); ?>
     </h2>
 
 
